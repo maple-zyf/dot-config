@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title data-i18n="optionsTitle">SaveFrom.net Helper - Preferences</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/options.css" rel="stylesheet" type="text/css">
+    <link rel="Shortcut Icon" href="img/icon_16.png">
+    <script src="js/mono.js" type="text/javascript"></script>
+  </head>
+  <body class="loading">
+    <div id="wrapper">
+      <h1 data-i18n="optionsTitle">SaveFrom.net Helper - Preferences</h1>
+
+      <form>
+        <div class="block browser opera">
+          <label><input type="checkbox" id="button" checked="1">&nbsp;<span data-i18n="showButton">Show extension button</span></label>
+        </div>
+
+        <div class="block">
+          <div data-i18n="optionsHandleLinks" class="title">Handle links</div>
+          <label><input type="checkbox" id="lmFileHosting" checked="1">&nbsp;<span data-i18n="optionsFileHostings">To filehostings</span></label>
+          <label><input type="checkbox" id="lmMediaHosting" checked="1">&nbsp;<span data-i18n="optionsMediaHostings">To mediahostings</span></label>
+        </div>
+
+        <div class="block">
+          <div data-i18n="optionsModules" class="title">Modules</div>
+          <div id="youtube_box" class="module"><label><input type="checkbox" id="moduleYoutube" checked="1">&nbsp;<span data-i18n="optionsYoutube">YouTube</span></label>
+            <div class="module_options">
+              <div class="inline">
+                <span data-i18n="optionsYTHideLinks">Hide links</span>:
+                <label><input type="checkbox" id="ytHideFLV" checked="0">&nbsp;FLV</label>
+                <label><input type="checkbox" id="ytHideMP4" checked="0">&nbsp;MP4</label>
+                <label><input type="checkbox" id="ytHideWebM" checked="1">&nbsp;WebM</label>
+                <label><input type="checkbox" id="ytHide3GP" checked="1">&nbsp;3GP</label>
+                <label><input type="checkbox" id="ytHide3D" checked="1">&nbsp;3D</label>
+                <label><input type="checkbox" id="ytHideMP4NoAudio" checked="1">&nbsp;MP4&nbsp;(no&nbsp;audio)</label>
+                <label><input type="checkbox" id="ytHideAudio_MP4" checked="1">&nbsp;Audio</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="module"><label><input type="checkbox" id="moduleDailymotion" checked="1">&nbsp;<span data-i18n="optionsDailymotion">Dailymotion</span></label></div>
+
+          <div class="module"><label><input type="checkbox" id="moduleVimeo" checked="1">&nbsp;<span data-i18n="optionsVimeo">Vimeo</span></label></div>
+
+          <div class="module"><label><input type="checkbox" id="moduleFacebook" checked="1">&nbsp;<span data-i18n="optionsFacebook">Facebook</span></label></div>
+
+          <div class="module"><label><input type="checkbox" id="moduleSoundcloud" checked="1">&nbsp;<span data-i18n="optionsSoundcloud">SoundCloud</span></label></div>
+
+          <div class="module"><label><input type="checkbox" id="moduleVkontakte" checked="1">&nbsp;<span data-i18n="optionsVkontakte">VK</span></label>
+            <div class="module_options"><label><input type="checkbox" id="vkShowBitrate" checked="0">&nbsp;<span data-i18n="optionsBitrate">Show bitrate instantly</span></label></div>
+          </div>
+
+          <div class="module"><label><input type="checkbox" id="moduleOdnoklassniki" checked="1">&nbsp;<span data-i18n="optionsOdnoklassniki">Odnoklassniki</span></label></div>
+
+          <div class="module"><label><input type="checkbox" id="moduleMailru" checked="1">&nbsp;<span data-i18n="optionsMailru">Mail.ru</span></label></div>
+
+          <div class="module"><label><input type="checkbox" id="moduleInstagram" checked="1">&nbsp;<span data-i18n="optionsInstagram">Instagram</span></label></div>
+
+          <div class="module"><label><input type="checkbox" id="moduleRutube" checked="1">&nbsp;<span data-i18n="optionsRutube">Rutube</span></label></div>
+        </div>
+
+        <div class="block" id="blockUmmyInfo">
+          <label><input type="checkbox" id="showUmmyInfo" checked="1">&nbsp;<span data-i18n="optionsShowUmmyInfo">Show Ummy info popup</span></label>
+          <label><input type="checkbox" id="showUmmyBtn" checked="1">&nbsp;<span data-i18n="optionsShowUmmyBtn">Show the Ummy button</span></label>
+        </div>
+
+        <div class="block" id="blockSovetnikEnabled">
+            <label><input type="checkbox" id="sovetnikEnabled" checked="1">&nbsp;<span data-i18n="optionsSovetnikEnabled">Enable sovetnik</span></label>
+        </div>
+
+        <div class="block" id="blockAviaBar">
+          <label><input type="checkbox" id="aviaBarEnabled" checked="1">&nbsp;<span data-i18n="optionsAviaBarEnabled">Enable aviaBar</span></label>
+        </div>
+
+        <div class="clear"></div>
+      </form>
+    </div>
+    <script type="text/javascript" src="js/options.js"></script>
+  </body>
+</html>
+

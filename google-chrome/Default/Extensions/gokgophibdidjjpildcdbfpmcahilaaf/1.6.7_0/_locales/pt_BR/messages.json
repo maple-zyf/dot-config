@@ -1,0 +1,90 @@
+{
+   "copy": {
+      "description": "",
+      "message": "cópia"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Gerenciar downloads quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Baixar +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "A partir do Disco"
+   },
+   "from_list": {
+      "description": "",
+      "message": "A partir da lista"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Eu gosto disso"
+   },
+   "keep": {
+      "description": "",
+      "message": "manter"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Já não aparece para lembrar"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Download concluído !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Na Notificação Click, fazer"
+   },
+   "open": {
+      "description": "",
+      "message": "ligação aberta"
+   },
+   "open_file": {
+      "description": "",
+      "message": "abrir arquivo"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "lista de pré-visualização"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "recomendada App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Download em conclusão Notificações"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "só mostram quando o perigo"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Definições"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "mostrar na pasta"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Mostrar só o botão de download"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Mostrar número no ícone"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Ligue função"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Quero outras funções"
+   }
+}

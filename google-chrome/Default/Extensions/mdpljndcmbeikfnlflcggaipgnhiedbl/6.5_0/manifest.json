@@ -1,0 +1,82 @@
+{
+   "author": "Magicbit, Inc",
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/mono.js", "js/utils.js", "js/background.js", "js/vimeo_com_embed.js", "js/dailymotion_com_embed.js", "js/youtube_com_embed.js", "js/soundcloud_com_embed.js", "js/vkontakte_ru_embed.js", "js/odnoklassniki_ru_embed.js", "js/facebook_com_embed.js", "js/mail_ru_embed.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon_18.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/mono.js", "includes/components.js", "includes/vimeo_com.js" ],
+      "matches": [ "*://*.vimeo.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "include_globs": [ "http://dailymotion.*/*", "http://*.dailymotion.*/*", "https://dailymotion.*/*", "https://*.dailymotion.*/*" ],
+      "js": [ "js/mono.js", "includes/components.js", "includes/dailymotion_com.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "js/mono.js", "includes/components.js", "includes/youtube_com.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/mono.js", "includes/components.js", "includes/soundcloud_com.js" ],
+      "matches": [ "*://*.soundcloud.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "js/mono.js", "includes/components.js", "includes/vkontakte_ru.js" ],
+      "matches": [ "*://*.vk.com/*", "*://*.vkontakte.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/mono.js", "includes/components.js", "includes/odnoklassniki_ru.js" ],
+      "matches": [ "*://*.ok.ru/*", "*://*.odnoklassniki.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/mono.js", "includes/components.js", "includes/mail_ru.js" ],
+      "matches": [ "*://my.mail.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/mono.js", "includes/components.js", "includes/facebook_com.js" ],
+      "matches": [ "*://*.facebook.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/mono.js", "includes/components.js", "includes/savefrom_net.js" ],
+      "matches": [ "*://*.savefrom.net/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "js/mono.js", "includes/components.js", "includes/instagram_com.js" ],
+      "matches": [ "*://*.instagram.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "js/mono.js", "includes/components.js", "includes/rutube_ru.js" ],
+      "matches": [ "*://*.rutube.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "js/mono.js", "includes/advisor-frame-sf.js" ],
+      "matches": [ "*://f.mgicinjs.info/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png",
+      "48": "img/icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8YZwrCJLZqGajnrygI0ryzhqIMCiRQRQQtYj3rFQ1wRZgbNiPUAPt1MXrHxEqZh/qsGfO6RulwLbn7UTb8+hDRwmDs8Zbfgxpi3SOekm9iwzdPVXpiWcMrvT4B48qcA8q6guCVw5dEjtnUKL1AIY6AGkvyvqSeC46M7zNsTLsOQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "downloads", "\u003Call_urls>", "clipboardWrite" ],
+   "update_url": "http://sf-addon.com/helper/chrome/updates-3.xml",
+   "version": "6.5"
+}

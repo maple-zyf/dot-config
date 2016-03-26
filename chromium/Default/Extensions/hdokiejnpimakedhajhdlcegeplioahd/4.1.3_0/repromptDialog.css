@@ -1,0 +1,20 @@
+#repromptDialog {
+  width: 390px;
+}
+
+#repromptDialog .dialogContent {
+  overflow: visible;
+}
+
+#repromptDialog .checkboxContainer {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+#repromptDialog td {
+  padding: 0;
+}
+
+.repromptDropdownCell {
+  width: 40%;
+}

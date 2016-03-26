@@ -1,0 +1,33 @@
+#keyboardPane {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+}
+
+#dialogPane {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+}
+
+.dialog {
+  position: absolute !important;
+  left: 10px !important;
+  right: auto !important;
+}
+
+#virtualKeyboard {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  margin: auto;
+}
+
+.showKeyboard {
+  display: none;
+}

@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+body.loading {
+    visibility: hidden;
+}
+
+body.setupMode {
+    visibility: visible;
+    overflow: auto;
+}
+
+body.setupMode iframe {
+    display: none;
+}
+
+.setupBody {
+    display: none;
+}
+
+body.setupMode .setupBody {
+    display: block;
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.setup.btn {
+    display: block;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    background: url(../img/icon.svg) center no-repeat;
+    background-size: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+    transition: opacity 0.2s, left 0.2s, top 0.2s, width 0.2s, height 0.2s;
+}
+.setup.btn:hover {
+    opacity: 1;
+}
+
+.setupBody {
+    text-align: center;
+}
+
+.container {
+    padding-left: 72px;
+    padding-right: 72px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.menu {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.menu a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid rgba(17, 85, 204, 0.5);
+}
+
+.menu a:focus {
+    text-decoration: none;
+}
+
+.menu .active,
+.menu .active:hover {
+    border-bottom: 2px solid rgb(17, 85, 204);
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+body.noExt .extOnly {
+    display: none;
+}
+
+body:not(.noExt) .noExtOnly {
+    display: none;
+}
+
+input[data-option="appId"] {
+    width: 220px;
+}
+
+a {
+    color: rgb(17, 85, 204);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.hide {
+    display: none;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.title {
+    font-size: 14px;
+}
+
+#extName {
+    margin-right: 20px;
+}
+
+#extDesc {
+    line-height: 1.8em;
+    font-size: 13px;
+    white-space: normal;
+    color: rgb(115, 119, 122);
+}
+
+.page.documentation {
+    font-size: 14px;
+}

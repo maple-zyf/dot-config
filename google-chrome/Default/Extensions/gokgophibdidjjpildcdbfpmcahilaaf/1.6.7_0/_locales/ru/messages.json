@@ -1,0 +1,90 @@
+{
+   "copy": {
+      "description": "",
+      "message": "копия"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Управление загрузками quikly . Медиа Ресурсы обнаружения: Видео (MP4, AVI, ASF, MPG, и т.д.), аудио (MP3, WAV, и т.д.), изображения, и т.д."
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Скачать +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "С диска"
+   },
+   "from_list": {
+      "description": "",
+      "message": "Из списка"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Мне нравится это"
+   },
+   "keep": {
+      "description": "",
+      "message": "держать"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Больше не появляется , чтобы напомнить"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Скачать Complete!"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "На Извещение Нажмите , У"
+   },
+   "open": {
+      "description": "",
+      "message": "открыть ссылку"
+   },
+   "open_file": {
+      "description": "",
+      "message": "открыть файл"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "список Preview"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Рекомендуемая App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Завершения загрузки Уведомления"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "показывать только когда опасность"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "настройки"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "показать в папке"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Показать только кнопку скачать"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Показать номер в иконку"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Включите функцию"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Я хочу другие функции"
+   }
+}

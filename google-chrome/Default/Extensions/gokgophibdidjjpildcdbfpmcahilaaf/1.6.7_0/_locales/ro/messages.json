@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "copie"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Gestionați descărcările quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Descarca +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "de la disc"
+   },
+   "from_list": {
+      "description": "",
+      "message": "din lista"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Imi place"
+   },
+   "keep": {
+      "description": "",
+      "message": "păstra"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Nu mai pare a reaminti"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Descărcați complet !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Privind notificarea Click, Do"
+   },
+   "open": {
+      "description": "",
+      "message": "link deschis"
+   },
+   "open_file": {
+      "description": "",
+      "message": "deschide fișierul"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "recomandate App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Descarcă Notificări Completare"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "numai arată când pericol"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Setări"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "arată în dosar"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Arată doar butonul de descărcare"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Arată număr în icoană"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Activarea funcției"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Vreau alte funcții"
+   }
+}

@@ -1,0 +1,90 @@
+{
+   "copy": {
+      "description": "",
+      "message": "copia"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Administrar las descargas quikly . Medios exploración de recursos Descargar: video, audio, fotos y otra"
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Descargar +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "De disco"
+   },
+   "from_list": {
+      "description": "",
+      "message": "Desde la lista"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Me gusta"
+   },
+   "keep": {
+      "description": "",
+      "message": "mantener"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Ya no aparece para recordarle"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Descarga completa !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "En Notificación Click, hacer"
+   },
+   "open": {
+      "description": "",
+      "message": "abrir enlace"
+   },
+   "open_file": {
+      "description": "",
+      "message": "archivo abierto"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "lista de vista previa"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "recomendada App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Descarga Finalización Notificaciones"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "mostrar sólo cuando el peligro"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Ajustes"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "mostrar en carpeta"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Mostrar sólo botón de descarga"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Mostrar número de icono"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Encienda la función"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Quiero que otras funciones"
+   }
+}

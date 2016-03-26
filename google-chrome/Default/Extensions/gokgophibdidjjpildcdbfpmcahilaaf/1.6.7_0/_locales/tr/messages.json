@@ -1,0 +1,90 @@
+{
+   "copy": {
+      "description": "",
+      "message": "kopya"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Quikly olarak indirme yönetin . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "indir +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "Disk"
+   },
+   "from_list": {
+      "description": "",
+      "message": "Listeden"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Bunu sevdim"
+   },
+   "keep": {
+      "description": "",
+      "message": "tutmak"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Artık hatırlatmak görünüyor"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Tam İndir !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Bildirim tıklayın günü , Do"
+   },
+   "open": {
+      "description": "",
+      "message": "açık bağlantı"
+   },
+   "open_file": {
+      "description": "",
+      "message": "dosya aç"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "Önizleme listesi"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Önerilen Uygulama"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Tamamlama Bildirimleri indir"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "sadece tehlike göstermek"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Ayarlar"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "klasöründe gösterisi"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Sadece indirme düğmesini göster"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Icon numarayı göster"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Fonksiyonu açın"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Ben diğer işlevleri istiyorum"
+   }
+}

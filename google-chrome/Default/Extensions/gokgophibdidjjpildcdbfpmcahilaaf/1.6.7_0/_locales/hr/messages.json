@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "kopija"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Moji preuzimanja quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Preuzimanje +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "Iz diska"
+   },
+   "from_list": {
+      "description": "",
+      "message": "od Popis"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Sviđa mi se"
+   },
+   "keep": {
+      "description": "",
+      "message": "zadržati"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Nema više čini da podsjetim"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Preuzmite Kompletan !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Na obavijesti klik , učiniti"
+   },
+   "open": {
+      "description": "",
+      "message": "Otvori vezu"
+   },
+   "open_file": {
+      "description": "",
+      "message": "otvori datoteku"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Preporučena App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Preuzmite završetka Obavijesti"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "prikazuju samo kada opasnost"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Postavke"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "Pokaži u mapi"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Prikaži samo gumb za preuzimanje"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Pokaži broj na ikonu"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Uključite funkciju"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Želim ostale funkcije"
+   }
+}

@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "còpia"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Administrar les descàrregues quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "descarregar +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "de Disc"
+   },
+   "from_list": {
+      "description": "",
+      "message": "des de la llista"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "M'agrada"
+   },
+   "keep": {
+      "description": "",
+      "message": "mantenir"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Ja no apareix per recordar"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Download Complete !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "En Notificació Click, fer"
+   },
+   "open": {
+      "description": "",
+      "message": "obrir enllaç"
+   },
+   "open_file": {
+      "description": "",
+      "message": "arxiu obert"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "recomanada App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Descàrrega Finalització Notificacions"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "mostrar només quan el perill"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "ajustos"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "mostrar a la carpeta"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Mostra només botó de descàrrega"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Mostra nombre d'icona"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Enceneu la funció"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Vull que altres funcions"
+   }
+}

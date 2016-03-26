@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+<body>
+
+<div id="sidebar" ondrop="true">
+	<div id="texture">
+    	<div class="buttons">
+        	<div id="top-close" class="button close" title="关闭"></div>
+            <div id="top-min" class="button min" title="最小化"></div>
+            <div id="top-max" class="button max" title="最大化"></div>
+            <div id="top-pin" class="button pin" title="固定"></div>
+        </div>
+    </div>
+    <div id="topbar">
+        <div id="searchbox">
+            <input id="searchbox-input" temp="" />
+            <input id="searchbox-go" type="button" value="Search" />
+        </div>
+        <div id="search-results-w">
+        	<div class="occupy"></div>
+            <div id="search-results">
+                <div id="search-tip" class="note">请输入您要查询的中英文词条</div>
+            </div>
+        </div>
+        <div id="tabs">
+        	<div id="tab-bing" class="i left selected" dict="bing">必应</div>
+            <div id="tab-youdao" class="i middle" dict="youdao">有道</div>
+            <div id="tab-dictionary" class="i right" dict="dictionary">Dictionary</div>
+        </div>
+    </div>
+    
+    <div id="result" class="adjustheight">
+    	<div id="result-progress"><div id="result-progress-head"></div></div>
+	  	<iframe src="" class="iframeresult" frameborder="0" width="100%" height="100%" id="youdao-dict"></iframe>
+        <iframe src="" class="iframeresult" frameborder="0" width="100%" height="100%" id="bing-dict"></iframe>
+        <iframe src="" class="iframeresult" frameborder="0" width="100%" height="100%" id="dictionary-dict"></iframe>
+        <div id="result-https">
+        	<div id="result-https-inner">
+            
+        		<div id="result-https-info">由于Chrome提高了安全等级，若要在https页面内使用其他两种词典（有道和Dictionary）继续查词需要您的授权。点开地址栏内部右侧的小盾牌图标，点击继续加载。页面之后会刷新，查词功能将恢复。若您认为这样会威胁到您操作的安全性，请忽略。</div>
+        		<img src="img/https_warning.jpg" />
+            </div>
+        </div>
+    </div>
+    <div id="menu" >
+		
+    </div>
+</div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/sidebar.js"></script>
+</body>
+</html>

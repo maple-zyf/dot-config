@@ -1,0 +1,90 @@
+{
+   "copy": {
+      "description": "",
+      "message": "copie"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Gérer vos téléchargements quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Télécharger +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "à partir du disque"
+   },
+   "from_list": {
+      "description": "",
+      "message": "De Liste"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Je l'aime"
+   },
+   "keep": {
+      "description": "",
+      "message": "garder"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Ne apparaît plus à rappeler"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Téléchargement terminé !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Cliquez sur la notification , Avez-"
+   },
+   "open": {
+      "description": "",
+      "message": "ouvrir le lien"
+   },
+   "open_file": {
+      "description": "",
+      "message": "dossier ouvert"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "Liste Aperçu"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "App recommandée"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Télécharger achèvement Notifications"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "afficher uniquement quand le danger"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "paramètres"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "afficher dans le dossier"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Ne afficher que les bouton de téléchargement"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Afficher le nombre dans l'icône"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Tournez sur la fonction"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Je veux d'autres fonctions"
+   }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QnxConfigurations>
+<!-- Written by QtCreator 3.2.1, 2015-07-08T19:03:07. -->
+<qtcreator>
+ <data>
+  <variable>QNXConfiguration.Count</variable>
+  <value type="int">0</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">1</value>
+ </data>
+</qtcreator>

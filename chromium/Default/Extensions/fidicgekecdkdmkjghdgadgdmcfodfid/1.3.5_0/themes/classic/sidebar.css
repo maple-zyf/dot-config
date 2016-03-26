@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0 0 0 8px;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	background:transparent;
+}
+
+.iframeresult{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	display:none;
+}
+
+::-webkit-scrollbar
+{
+    width: 3px;
+	background:#fff;
+}
+
+::-webkit-scrollbar-track{
+	background:#fff;
+}
+::-webkit-scrollbar-track-piece
+{
+    background-color: #fff;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:vertical
+{
+    background-color: #ddd;
+    border-radius: 3px;
+}
+
+#sidebar{
+	position:fixed;
+	right:0;
+	top:0;
+	width:600px;
+	height:100%;
+	background:white;
+	-webkit-box-shadow: 0 -2px 8px rgba(0, 0, 0, .5);
+}
+
+#texture{
+	height:18px;
+	background:url(img/wood.jpg);
+	border:1px solid #963;
+}
+
+#texture .buttons{
+	float:left;
+	margin:3px 0 0 8px;
+}
+
+#texture .buttons .button{
+	width: 15px;
+	height:15px;
+	float:left;
+	margin:0 3px 0 0;
+	background:url(img/header-buttons.png);
+	cursor:pointer;
+}
+
+#texture .buttons .button.close{
+	background-position:-5px -3px;
+}
+
+#texture .buttons .button.close:hover{
+	background-position:-5px -19px;
+}
+
+
+#texture .buttons .button.min{
+	background-position:-24px -3px;
+}
+
+#texture .buttons .button.min:hover{
+	background-position:-24px -19px;
+}
+
+#texture .buttons .button.max{
+	background-position:-43px -3px;
+	display:none;
+}
+
+#texture .buttons .button.max:hover{
+	background-position:-43px -19px;
+}
+
+#texture .buttons .button.pin{
+	background-position:-82px -3px;
+}
+#texture .buttons .button.pin.pinned{
+	background-position:-82px -19px;
+}
+
+#texture .buttons .button.pin:hover{
+	background-position:-82px -19px;
+}
+
+#topbar{
+	height:48px;
+	background-image: -webkit-linear-gradient(top, #f5f7f8, #e9edef);
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	position:relative;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+#searchbox{
+	position:absolute;
+	left:10px;
+	top:9px;
+	z-index:5;
+}
+
+#searchbox-input{
+	width:280px;
+	height:22px;
+	border-radius:4px 0 0 4px;
+	border:1px solid #bbb;
+	padding:3px;
+	margin:0;
+	float:left;
+	box-shadow: inset 0 2px 2px #eee;
+	outline:none;
+}
+
+#searchbox-input:focus
+{
+	border-color: #0992ca;
+	-webkit-box-shadow:  inset 0 0 1px #0992ca;
+}
+
+#searchbox-go{
+	border-radius:0 4px 4px 0;
+	border:1px solid #bbb;
+	border-left:none;
+	padding:2px 10px;
+	margin:0;
+	height:30px;
+	float:left;
+	font-size:11px;
+	font-weight:bold;
+	background:url(img/searchbutton.png);
+	cursor:pointer;
+}
+
+#searchbox-go.mousedown{
+	background:#eee;
+	box-shadow: inset 0 4px 4px #ddd;
+}
+
+#search-results-w{
+	position:absolute;
+	left:5px;
+	top:5px;
+	width:355px;
+	border:1px solid #bbb;
+	border-radius:5px;
+	background:white;
+	box-shadow: 0 2px 2px #ddd;
+	display:none;
+}
+#search-results-w .occupy{
+	height:37px;
+}
+
+#search-results{
+	font-size:12px;
+	color:#777;
+	z-index:20140110;
+}
+
+#search-results div{
+	padding:5px 10px;
+	border-top:1px solid #ddd;
+}
+
+#search-results div.i{
+	cursor:pointer;
+}
+
+#search-results div.i.hover{
+	background:#eee;
+	color:#e76725;
+}
+
+#search-results div.note{
+	color:#aaa;
+}
+
+#menu{
+	width:100%;
+	height:29px;
+	position:absolute;
+	left:0;
+	bottom:0px;
+	border-top: 1px solid #bbb;
+	background-color: #eaedef;
+}
+
+
+#tabs{
+	position:absolute;
+	right:10px;
+	top:9px;
+	font-size:12px;
+	border-radius:4px;
+	border:1px solid #bbb;
+	background:url(img/searchbutton.png);
+}
+
+#tabs .i{
+	float:left;
+	padding:6px 10px;
+	cursor:pointer;
+}
+
+#tabs .i.left{
+	border-right:1px solid #ccc;
+}
+
+#tabs .i.right{
+	border-left:1px solid #ccc;
+}
+
+#tabs .i.selected{
+	background:#eee;
+	box-shadow: inset 0 2px 3px #ccc;
+}
+
+
+
+#result-progress{
+	width:0;
+	height:2px;
+	position:absolute;
+	left:0;
+	top:70px;
+	background:#5fc4f3;
+	transition:opacity 500ms linear;
+}
+#result-progress-head{
+	width:10px;
+	height:2px;
+	position:absolute;
+	right:0;
+	top:0;
+	box-shadow:#5fc4f3 1px 0 6px 1px;
+	-webkit-animation:pulse 2s ease-out 0s infinite;
+	opacity:1;
+}
+
+#result-https{
+	position:absolute;
+	left:0;
+	top:70px;
+	z-index:10;
+	width:100%;
+	display:none;
+	text-align:center;
+	background:white;
+	width:100%;
+	height:100%;
+}
+
+#result-https-inner{
+	background:white;
+}
+
+#result-https-info{
+	font-size:12px;
+	background:#fae794;
+	border-bottom:#c3c3bb 1px solid;
+	color:#241216;
+	line-height:1.5em;
+	padding:10px;
+	text-align:left;
+	margin-bottom:40px;
+}

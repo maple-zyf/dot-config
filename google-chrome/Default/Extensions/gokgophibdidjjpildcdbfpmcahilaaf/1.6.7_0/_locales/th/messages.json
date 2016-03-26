@@ -1,0 +1,90 @@
+{
+   "copy": {
+      "description": "",
+      "message": "สำเนา"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "จัดการ การดาวน์โหลดของคุณ quikly.การตรวจสอบสื่อทรัพยากรวีดีโอ (MP4, AVI, ASF, MPG, ฯลฯ ) เสียง (MP3, WAV, ฯลฯ ) ภาพ ฯลฯ"
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "ดาวน์โหลด +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "จาก ดิสก์"
+   },
+   "from_list": {
+      "description": "",
+      "message": "จาก รายชื่อ"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "ผมชอบมัน"
+   },
+   "keep": {
+      "description": "",
+      "message": "เก็บ"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "ไม่ปรากฏขึ้น เพื่อเตือน"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "ดาวน์โหลด สมบูรณ์ !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "ใน การแจ้งเตือน คลิก ทำ"
+   },
+   "open": {
+      "description": "",
+      "message": "เปิด การเชื่อมโยง"
+   },
+   "open_file": {
+      "description": "",
+      "message": "เปิดแฟ้ม"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "รายการ ตัวอย่าง"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "App แนะนำ"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "ดาวน์โหลด เสร็จสิ้น การแจ้งเตือน"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "แสดงเฉพาะ เมื่อ อันตราย"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "การตั้งค่า"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "แสดง ในโฟลเดอร์"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "แสดง ปุ่ม ดาวน์โหลดเท่านั้น"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "แสดง ตัวเลขใน ไอคอน"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "เปิด ฟังก์ชั่น"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "ฉันต้องการ ฟังก์ชั่น อื่น ๆ"
+   }
+}

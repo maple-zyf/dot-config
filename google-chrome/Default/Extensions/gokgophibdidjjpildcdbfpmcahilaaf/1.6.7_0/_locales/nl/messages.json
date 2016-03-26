@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "kopie"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Beheer je downloads quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Download +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "From Disk"
+   },
+   "from_list": {
+      "description": "",
+      "message": "vanaf Lijst"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Ik vind het leuk"
+   },
+   "keep": {
+      "description": "",
+      "message": "houden"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Niet langer lijkt te herinneren"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Download Complete!"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Op Melding Klik, Do"
+   },
+   "open": {
+      "description": "",
+      "message": "Open link"
+   },
+   "open_file": {
+      "description": "",
+      "message": "open bestand"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Aanbevolen App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Download Afronding Bekendmakingen"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "alleen zien als er gevaar"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "instellingen"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "Weergeven in map"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Alleen download knop"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Toon nummer in het pictogram"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Schakel de functie"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Ik wil andere functies"
+   }
+}

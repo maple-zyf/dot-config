@@ -1,0 +1,34 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/zepto.min.js", "js/common.min.js", "js/main.min.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/19_normal.png"
+      },
+      "default_title": "__MSG_extetion_title__"
+   },
+   "content_scripts": [ {
+      "css": [ "css/animation.min.css" ],
+      "js": [ "js/animation.min.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self';",
+   "default_locale": "en",
+   "description": "__MSG_extetion_description__",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlFhdYQIhVVs+/wQmYTHgzyvaFm4IhHtdz+A6seggIoEsIKZzjeTTr4nmf3KHFfleISWIyvZRcgk73BDbHQ7e6hQSzf+aGUiDPN7XqKpJ4kfkUHJLta/MtUMDMJO1u3AIN6MBtKlpmBZUG3/9lz+vYgNDkKBM/g+9wtSnonDinAJhdPA0tG367tXqktWr2zT3pXMRGN/SdzJkTrJXxHAkL1zgck+3CLK0U84M5GKune8t5KKsMxFFiuGVcUXE7NQaUCHe5dOdcWz3C/qoHpgbYOftfyUvGl3Nzxg6gw2BFrIWtylM2EgnDmbM91u4J1bHTJ2dsc6Tcxd7tckfDS1D7wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extetion_title__",
+   "offline_enabled": true,
+   "options_page": "options.html",
+   "permissions": [ "tabs", "downloads", "downloads.open", "downloads.shelf", "notifications", "activeTab", "chrome://favicon/", "bookmarks", "*://*/*", "webRequest", "webRequestBlocking", "\u003Call_urls>", "storage", "unlimitedStorage", "clipboardWrite" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.7"
+}

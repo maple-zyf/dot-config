@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "copy"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Upravljanje prenosov quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Download +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "From Disk"
+   },
+   "from_list": {
+      "description": "",
+      "message": "od Seznam"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Všeč mi je"
+   },
+   "keep": {
+      "description": "",
+      "message": "Imejte"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Se ne zdi več spomnil"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Naložite Complete !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Na obvestila Click , Ali"
+   },
+   "open": {
+      "description": "",
+      "message": "Odpri povezavo"
+   },
+   "open_file": {
+      "description": "",
+      "message": "odprte datoteke"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Priporočena App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Naložite zaključku Obvestila"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "pokažejo šele, ko nevarnost"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Nastavitve"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "Prikaži v mapi"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Prikaži samo gumb za prenos"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Kažejo številke v ikoni"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Vklopite funkcijo"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Hočem druge funkcije"
+   }
+}

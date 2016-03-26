@@ -1,0 +1,90 @@
+{
+   "copy": {
+      "description": "",
+      "message": "copy"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Manage your downloads quikly. Fast, Convenient, and Efficient tool for you. Media Detection and Download:Video, audio, images, etc."
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Download Plus"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "From Disk"
+   },
+   "from_list": {
+      "description": "",
+      "message": "From List"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "I like it"
+   },
+   "keep": {
+      "description": "",
+      "message": "Keep"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "No longer appears to remind"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Download Complete!"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "On Notification Click, Do"
+   },
+   "open": {
+      "description": "",
+      "message": "open link"
+   },
+   "open_file": {
+      "description": "",
+      "message": "open file"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "Preview list"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Recommended App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Download Completion Notifications"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "only show when danger"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Settings"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "show in folder"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Show only download button"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Show number in icon"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Turn on function"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "I want other functions"
+   }
+}

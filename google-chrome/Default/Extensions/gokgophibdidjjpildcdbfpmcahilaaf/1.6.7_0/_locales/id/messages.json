@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "salinan"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Mengelola download secara cepat . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Download +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "dari Disk"
+   },
+   "from_list": {
+      "description": "",
+      "message": "dari Daftar"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Aku suka itu"
+   },
+   "keep": {
+      "description": "",
+      "message": "menjaga"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Tidak lagi muncul untuk mengingatkan"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Unduh Selesai!"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Pada Pemberitahuan Klik , Lakukan"
+   },
+   "open": {
+      "description": "",
+      "message": "Link terbuka"
+   },
+   "open_file": {
+      "description": "",
+      "message": "buka file"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Rekomendasi App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Unduh Penyelesaian Pemberitahuan"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "hanya menunjukkan ketika bahaya"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "pengaturan"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "acara di folder"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Tampilkan hanya tombol download"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Tampilkan nomor dalam ikon"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Aktifkan fungsi"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Saya ingin fungsi lainnya"
+   }
+}

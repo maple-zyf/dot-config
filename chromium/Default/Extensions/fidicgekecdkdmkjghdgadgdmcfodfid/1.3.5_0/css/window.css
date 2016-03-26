@@ -1,0 +1,447 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0;
+	margin:0;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	overflow:hidden;
+	min-width:900px;
+	min-height:400px;
+}
+.shield{
+	background:url(../img/dashbg70.png);
+}
+.clear{
+	float:none;
+	clear:both;
+}
+
+#texture{
+	width:100%;
+	height:20px;
+	position:fixed;
+	left:0;
+	top:0;
+}
+
+#topbar{
+	width:100%;
+	min-width:900px;
+	height:48px;
+	border-bottom:1px solid #bbb;
+	border-top:1px solid #ccc;
+	position:relative;
+	top:20px;
+	overflow:hidden;
+}
+
+#logo{
+	position:absolute;
+	left:12px;
+	top:15px;
+}
+
+#logo img{
+	width:170px;
+}
+
+#searchbox{
+	position:absolute;
+	left:205px;
+	top:9px;
+	z-index:5;
+}
+
+#searchbox-input{
+	width:274px;
+	height:22px;
+	border:1px solid #bbb;
+	padding:3px;
+	margin:0;
+	float:left;
+	outline:none;
+}
+
+#searchbox-input:focus
+{
+	border-color: #0992ca;
+}
+
+#searchbox-go{
+	border:1px solid #bbb;
+	border-left:none;
+	padding:2px 10px;
+	margin:0;
+	height:30px;
+	float:left;
+	font-size:11px;
+	font-weight:bold;
+	cursor:pointer;
+	outline:none;
+}
+
+#searchbox-go.mousedown{
+	background:#eee;
+}
+
+#search-results-w{
+	position:absolute;
+	left:200px;
+	top:5px;
+	width:349px;
+	border:1px solid #bbb;
+	background:white;
+	display:none;
+}
+#search-results-w .occupy{
+	height:47px;
+}
+
+#search-results{
+	font-size:12px;
+	color:#777;
+	z-index:2014;
+}
+
+#search-results div{
+	padding:5px 10px;
+	border-top:1px solid #ddd;
+}
+
+#search-results div.i{
+	cursor:pointer;
+}
+
+#search-results div.i.hover{
+	background:#eee;
+	color:#e76725;
+}
+
+#search-results div.note{
+	color:#aaa;
+}
+
+.tabs{
+	position:absolute;
+	font-size:12px;
+	border:1px solid #bbb;
+}
+
+.tabs#tabs-dict{
+	left:580px;
+	top:9px;
+}
+
+.tabs#tabs-read{
+	left:780px;
+	top:9px;
+}
+
+.tabs#tabs-fswitch{
+	right:20px;
+	top:9px;
+}
+
+
+.tabs .i{
+	float:left;
+	padding:6px 10px;
+	cursor:pointer;
+}
+
+.tabs .i.left{
+	border-right:1px solid #ccc;
+}
+
+.tabs .i.middle{
+	border-right:1px solid #ccc;
+}
+
+.tabs .i.selected{
+	background:#eee;
+}
+
+
+#leftmenu{
+	position:absolute;
+	left:0;
+	top:70px;
+	width:200px;
+	height:400px;
+	border-right: 1px solid #bbb;
+}
+
+#wordlist{
+	position:absolute;
+	left:201px;
+	top:70px;
+	height:400px;
+	width:349px;
+	border-right:1px solid #bbb;
+	overflow:auto;
+}
+
+::-webkit-scrollbar
+{
+    width: 5px;
+	background:transparent;
+}
+
+::-webkit-scrollbar-track{
+	background:tranparent;
+}
+::-webkit-scrollbar-track-piece
+{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb:vertical
+{
+    background-color: #ddd;
+}
+
+#wordlist li{
+	list-style:none;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:10px 20px;
+	border-bottom:1px solid #ddd;
+}
+#wordlist li:hover{
+	cursor:default;
+}
+
+#wordlist li.selected{
+}
+
+#wordlist li .w{
+	font-size:16px;
+	color:#333;
+	line-height:1em;
+	font-weight:400;
+}
+
+#wordlist li .t{
+	font-size:12px;
+	color:#aaa;
+	line-height:1.2em;
+	padding:10px 0 0 0;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+#wordlist li .n{
+	display:none;
+}
+
+#leftmenu .cardhandle{
+	color: #555e64;
+	font-size: 11px;
+	font-weight: bold;
+	border-bottom: 1px solid #ced8df;
+	padding:8px 5px 8px 10px;
+	position:relative;
+}
+
+#leftmenu .cell div.ico{
+	margin-right:5px;
+	width:16px;
+	height:16px;
+	float:left;
+}
+
+#leftmenu .cell .ico.clip{
+	width:9px;
+	height:9px;
+}
+
+#leftmenu .content{
+	padding:5px 0;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #ced8df;
+}
+
+#leftmenu .content .i{
+	cursor:pointer;
+	color: #354651;
+	padding:5px 5px 5px 13px;
+	font-size:12px;
+}
+
+#leftmenu .content .i.selected{
+}
+
+#leftmenu .content .i:hover{
+}
+
+#leftmenu .content .i img.ico{
+	margin: 0px 10px -2px 0;
+}
+
+#leftmenu .content .i img.op{
+	float:right;
+	margin:3px 0 -3px 0;
+}
+
+#flipboard{
+	position:absolute;
+	right:0;
+	top:70px;
+	background:white;
+}
+
+#flipboard-shield{
+	position:absolute;
+	right:0;
+	top:70px;
+	z-index:2014;
+	display:none;
+}
+
+#result{
+	width:650px;
+	position:absolute;
+	left:551px;
+	top:70px;
+	width:0;
+	z-index:2014;
+	display:none;
+	overflow:hidden;
+}
+
+#result-inner{
+	width:600px;
+	position:absolute;
+	left:0;
+	top:0;
+	height:100%;
+}
+
+#result-progress{
+	width:0;
+	height:2px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#result-progress-head{
+	width:10px;
+	height:2px;
+	position:absolute;
+	right:0;
+	top:0;
+	-webkit-animation:pulse 2s ease-out 0s infinite;
+	opacity:1;
+}
+
+#result-op{
+	width:50px;
+	position:absolute;
+	right:0;
+	top:0;
+	height:100%;
+}
+
+#result-op .b{
+	height:50px;
+	border-top:1px solid #666;
+	border-bottom:1px solid #333;
+	cursor:pointer;
+}
+#result-op .b:hover{
+	border-top:1px solid #444;
+
+}
+#result-op .b.selected{
+	border-top:1px solid #444;
+}
+
+#result-op .b img{
+	width:20px;
+	height:20px;
+	margin:15px;
+}
+
+#result-op .end{
+	border-top:1px solid #666;
+}
+
+.mode{
+	width:545px;
+	position:absolute;
+	left:202px;
+	top:70px;
+	display:none;
+	z-index:2014;
+	overflow:auto;
+}
+.mode-inner{
+	margin:50px 50px 0 50px;
+	border-top:1px solid #ddd;
+}
+
+.mode .iw{
+	padding:20px 0;
+	font-size:13px;
+	line-height:1.8em;
+	border-bottom:1px solid #ddd;
+}
+
+#setting .iw input{
+	float:right;
+}
+
+.ulli1 ul{
+	margin:0;
+	padding:20px 0 0 0;
+}
+
+.ulli1 ul li{
+	list-style:none;
+	float: left;
+	margin-right:20px;
+	padding:5px;
+	border:1px solid #ccc;
+	cursor:pointer;
+	color:#888;
+}
+#themes ul li{width:190px;}
+#dict-types ul li{width:auto; min-width:100px;}
+#dict-homepage-input{width:310px; height:20px; border:1px solid #ccc;}
+#dict-operation ul li{width:auto; min-width:100px;}
+
+.ulli1 ul li:hover{
+	background:#eee;
+	color:#333;
+}
+
+.ulli1 ul li a{float:right}
+
+.ulli1 ul li.selected{
+	color:#333;
+	background:#ddd;
+}
+
+
+#help .mode-inner{
+	margin:20px 50px;
+	font-size:13px;
+	border-top:none;
+	color:#444;
+}
+
+#help .title{
+	margin-bottom:10px;
+	line-height:2em;
+}
+
+@media screen and (max-width:1340px){
+	.tabs .i.emit{
+		display:none;
+	}
+}
+
+@media screen and (max-width:1200px){
+	#tabs-read{
+		display:none;
+	}
+}

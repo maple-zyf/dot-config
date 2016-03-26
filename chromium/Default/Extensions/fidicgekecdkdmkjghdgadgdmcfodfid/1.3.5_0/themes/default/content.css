@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+#hldict-pop{
+	position:absolute;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:13px; 
+	line-height:1.5em; 
+	background:transparent;
+	color:black;
+	z-index: 2014112700;
+}
+#hldict-pop-texture{
+	height:0px;
+	border:none;
+	border-top:1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+#hldict-pop-close{
+	float:right; 
+	margin:1px 1px 0 0;
+	width:15px;
+	height:15px;
+	background:url(img/header-buttons.png);
+	background-position:-5px -3px;
+	cursor:pointer;
+	display:none;
+}
+#hldict-pop-close.hldict-hover{
+	background-position:-5px -19px;
+}
+#hldict-pop-content{
+	padding:10px; 
+	border-radius:0 0 2px 2px;
+	border-top:none;
+	background:white;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+}
+#hldict-poparrow-w{
+	position:relative;
+	height:7px;
+}
+#hldict-poparrow-w.up{
+	margin:0 0 -1px 0;
+}
+#hldict-poparrow-w.down{
+	margin:-2px 0 0 0;
+}
+#hldict-poparrow{
+	width:14px;
+	height:7px;
+	left:50%; 
+	margin-left:-7px;
+	position:absolute;
+	z-index:20130907
+}
+#hldict-poparrow.up{
+	background:url(img/poparrow.png);
+}
+#hldict-poparrow.down{
+	background:url(img/poparrow.png) bottom;
+}
+
+#hldict-pop-title{
+	font-size:16px;
+	color: #999;
+}
+
+#hldict-pop-title strong{
+	margin-right:10px;
+	color:#dd4b39;
+	font-weight:bold;
+}
+
+#hldict-pop-title #hldict-pop-play{
+	float:right;
+	margin:1px 0 0 0;
+	cursor:pointer;
+	width:16px; 
+	height:16px;
+	background:url(img/sound.png);
+	opacity: 0.55;
+	display:none;
+}
+
+#hldict-pop-title #hldict-pop-play:hover{
+	opacity: 1;
+}
+
+#hldict-pop-detail{
+	padding:10px 0;
+	color:black;
+	font-size:14px;
+	text-align:left;
+	font-weight:normal; 
+	color: #333;
+	line-height:1.8em;
+}
+
+#hldict-pop-more{
+	color:#427fed;
+	text-align:right;
+	cursor:pointer;
+	padding:0 2px;
+}
+
+#hanlin-dict-w{
+	position:fixed;
+	right:0;
+	top:0;
+	width:0;
+	height:100%;
+	z-index:2014083000;
+}
+
+#hanlin-dict{
+	border:none; 
+	margin:0;
+	padding:0;
+}
+
+#hanlin-dict-minwidth{
+	width:67px;
+	height:0px;
+}

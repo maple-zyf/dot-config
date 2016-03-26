@@ -1,0 +1,90 @@
+{
+   "copy": {
+      "description": "",
+      "message": "نسخة"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "إدارة التحميل الخاص بك قوانينه .وسائل الإعلام تحميل استكشاف الموارد: الفيديو والصوت والصور وغيرها "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "تحميل +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "من القرص"
+   },
+   "from_list": {
+      "description": "",
+      "message": "من قائمة"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "أنا أحب ذلك"
+   },
+   "keep": {
+      "description": "",
+      "message": "احتفظ"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "لم يعد يظهر لتذكير"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "تحميل كاملة!"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "إخطارات انقر فوق، هل"
+   },
+   "open": {
+      "description": "",
+      "message": "الرابط مفتوح"
+   },
+   "open_file": {
+      "description": "",
+      "message": "افتح الملف"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "قائمة المعاينة"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "وأوصى التطبيقات"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "تحميل الإخطارات استكمال"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "تظهر فقط عند الخطر"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "الإعدادات"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "تظهر في مجلد"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "اظهار زر التحميل الوحيد"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "عرض عدد في أيقونة"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "بدوره على وظيفة"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "أريد وظائف أخرى"
+   }
+}

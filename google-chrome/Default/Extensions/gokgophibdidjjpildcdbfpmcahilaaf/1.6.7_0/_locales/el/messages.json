@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "αντίγραφο"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Διαχειριστείτε τις λήψεις σας quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Λήψη +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "από το δίσκο"
+   },
+   "from_list": {
+      "description": "",
+      "message": "από τη λίστα"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Μου αρέσει"
+   },
+   "keep": {
+      "description": "",
+      "message": "διατήρηση"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Δεν φαίνεται πλέον να υπενθυμίσω"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Download Complete !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Κάντε κλικ για την κοινοποίηση , Do"
+   },
+   "open": {
+      "description": "",
+      "message": "Άνοιγμα συνδέσμου"
+   },
+   "open_file": {
+      "description": "",
+      "message": "ανοιχτό αρχείο"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Συνιστώμενη App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Κατεβάστε Ολοκλήρωση Ειδοποιήσεις"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "μόνο όταν παρουσιάζουν κίνδυνο"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Ρυθμίσεις"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "Εμφάνιση στο φάκελο"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Εμφάνιση μόνο κουμπί λήψης"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Εμφάνιση αριθμού στην εικόνα"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Ενεργοποιήστε τη λειτουργία"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Θέλω άλλες λειτουργίες"
+   }
+}

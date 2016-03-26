@@ -1,0 +1,90 @@
+{
+   "copy": {
+      "description": "",
+      "message": "másolat"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "A letöltések kezelése quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Letöltés +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "lemezről"
+   },
+   "from_list": {
+      "description": "",
+      "message": "listából"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Szeretem"
+   },
+   "keep": {
+      "description": "",
+      "message": "tart"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Már nem jelenik meg , hogy emlékeztesse"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Letöltés kész !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "A Notification Click , Do"
+   },
+   "open": {
+      "description": "",
+      "message": "Link megnyitása"
+   },
+   "open_file": {
+      "description": "",
+      "message": "fájl megnyitása"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "Preview lista"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Ajánlott App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Letöltés befejezése értesítések"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "csak azt mutatják , ha veszélyben"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "beállítások"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "Megjelenítés mappában"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Csak megtekintés letöltés gombra"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Mutasd számot icon"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Kapcsolja be a funkciót"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Azt akarom egyéb funkciók"
+   }
+}

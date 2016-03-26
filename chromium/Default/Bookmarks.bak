@@ -1,0 +1,36 @@
+{
+   "checksum": "a40d33883bbdbc123a6079a81c55ee76",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13103376205445206",
+            "id": "6",
+            "name": "百度一下，你就知道",
+            "type": "url",
+            "url": "https://www.baidu.com/"
+         } ],
+         "date_added": "13103376158040939",
+         "date_modified": "13103376205445206",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13103376158040951",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13103376158040952",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "kopio"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Hallitse lataukset quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Lataa +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "levykkeeltä"
+   },
+   "from_list": {
+      "description": "",
+      "message": "From List"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Pidän siitä"
+   },
+   "keep": {
+      "description": "",
+      "message": "pitää"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Ei enää näyttää muistuttaa"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Lataa täydellinen !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "On Ilmoitus Valitse , Do"
+   },
+   "open": {
+      "description": "",
+      "message": "avoin linkki"
+   },
+   "open_file": {
+      "description": "",
+      "message": "avaa tiedosto"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Suositeltava App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Lataa loppuun Ilmoitukset"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "näyttää vain silloin, kun vaara"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Asetukset"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "Näytä kansiossa"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Näytä vain lataa nappia"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Näytä numero ikoni"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Ota toiminto"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Haluan muita toimintoja"
+   }
+}

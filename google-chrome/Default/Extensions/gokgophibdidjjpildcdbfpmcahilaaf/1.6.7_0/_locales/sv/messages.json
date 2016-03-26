@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "kopia"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Hantera dina nedladdningar quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Hämta +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "från Disk"
+   },
+   "from_list": {
+      "description": "",
+      "message": "från List"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Jag gillar det"
+   },
+   "keep": {
+      "description": "",
+      "message": "Håll"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Inte längre verkar påminna"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Hämta Complete !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "På Anmälan Klicka , Gör"
+   },
+   "open": {
+      "description": "",
+      "message": "öppen länk"
+   },
+   "open_file": {
+      "description": "",
+      "message": "öppna fil"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Rekommenderad app"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Hämta Slutförande Anmälningar"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "bara när faran"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Inställningar"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "utställning i mappen"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Visa bara knappen Hämta"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Visa nummer i ikonen"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Aktivera funktion"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Jag vill ha andra funktioner"
+   }
+}

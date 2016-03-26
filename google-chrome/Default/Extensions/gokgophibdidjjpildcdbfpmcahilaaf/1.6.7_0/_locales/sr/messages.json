@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "копија"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Организујте своје преузимања куикли . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Довнлоад +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "Од Диск"
+   },
+   "from_list": {
+      "description": "",
+      "message": "Од Лист"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "И лике ит"
+   },
+   "keep": {
+      "description": "",
+      "message": "држати"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Више не појављује да подсетим"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Довнлоад Комплетна !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "На Нотифицатион Цлицк , До"
+   },
+   "open": {
+      "description": "",
+      "message": "отворена веза"
+   },
+   "open_file": {
+      "description": "",
+      "message": "опен филе"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Препоручена Апп"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Довнлоад Завершение Обавештења"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "само показују када опасност"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Подешавања"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "схов у фолдеру"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Приказ само преузимање дугме"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Схов број у икону"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Укључите функцију"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Желим друге функције"
+   }
+}

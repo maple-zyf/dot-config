@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "kopia"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Zarządzaj pobieraniem quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Pobierz +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "z dysku"
+   },
+   "from_list": {
+      "description": "",
+      "message": "z listy"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Lubię to"
+   },
+   "keep": {
+      "description": "",
+      "message": "zachować"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Nie pojawia się już przypominać"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Pobierz zakończona!"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Na powiadomień Kliknij , uwagi"
+   },
+   "open": {
+      "description": "",
+      "message": "Otwórz link"
+   },
+   "open_file": {
+      "description": "",
+      "message": "otwórz plik"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Zalecane App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Pobierz dopełniania Powiadomienia"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "tylko pokazać , gdy niebezpieczeństwo"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Ustawienia"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "Pokaż w katalogu"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Pokaż tylko przycisk Pobierz"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Pokaż numer w ikonę"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Włącz funkcję"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Chcę inne funkcje"
+   }
+}

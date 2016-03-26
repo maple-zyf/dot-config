@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "kopie"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Správa stahování quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Download +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "Z disku"
+   },
+   "from_list": {
+      "description": "",
+      "message": "ze seznamu"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Líbí se mi to"
+   },
+   "keep": {
+      "description": "",
+      "message": "zachovat"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Už se zdá, připomenout"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Ke stažení Complete !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Na oznámení Click , Do"
+   },
+   "open": {
+      "description": "",
+      "message": "otevřít odkaz"
+   },
+   "open_file": {
+      "description": "",
+      "message": "otevřít soubor"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Doporučená App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Ke stažení Dokončení oznámení"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "zobrazit pouze tehdy, když nebezpečí"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Nastavení"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "výstava ve složce"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Ukázat pouze tlačítko pro stažení"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Zobrazit číslo v ikoně"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Zapnout funkci"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Chci další funkce"
+   }
+}

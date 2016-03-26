@@ -1,0 +1,43 @@
+<monitors version="1">
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI1">
+      <vendor>CHD</vendor>
+      <product>LT37710</product>
+      <serial>0x00000001</serial>
+      <width>1280</width>
+      <height>720</height>
+      <rate>59.967262268066406</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+    </output>
+    <output name="LVDS1">
+      <vendor>AUO</vendor>
+      <product>0x26ec</product>
+      <serial>0x00000000</serial>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="LVDS1">
+      <vendor>AUO</vendor>
+      <product>0x26ec</product>
+      <serial>0x00000000</serial>
+      <width>1366</width>
+      <height>768</height>
+      <rate>60.014175415039062</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+    </output>
+  </configuration>
+</monitors>

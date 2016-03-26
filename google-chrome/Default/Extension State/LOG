@@ -1,0 +1,14 @@
+2016/03/26-09:47:06.338 26168 Reusing MANIFEST /home/maple/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2016/03/26-09:47:06.338 26168 Recovering log #1168
+2016/03/26-09:47:06.340 26168 Level-0 table #1170: started
+2016/03/26-09:47:06.386 26168 Level-0 table #1170: 227166 bytes OK
+2016/03/26-09:47:06.454 26168 Delete type=0 #1168
+2016/03/26-09:47:06.454 26266 Compacting 4@0 + 1@1 files
+2016/03/26-09:47:06.543 26266 Generated table #1172: 8 keys, 4583 bytes
+2016/03/26-09:47:06.543 26266 Compacted 4@0 + 1@1 files => 4583 bytes
+2016/03/26-09:47:06.600 26266 compacted to: files[ 0 1 0 0 0 0 0 ]
+2016/03/26-09:47:06.600 26266 Delete type=2 #1164
+2016/03/26-09:47:06.600 26266 Delete type=2 #1162
+2016/03/26-09:47:06.600 26266 Delete type=2 #1160
+2016/03/26-09:47:06.600 26266 Delete type=2 #1170
+2016/03/26-09:47:06.601 26266 Delete type=2 #1167

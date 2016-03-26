@@ -1,0 +1,19 @@
+[Added Associations]
+application/x-trash=org.gnome.gedit.desktop;
+application/x-ms-dos-executable=org.gnome.gedit.desktop;
+application/gzip=org.gnome.gedit.desktop;
+text/x-matlab=org.gnome.gedit.desktop;
+application/wps-office.docx=wps-office-wps.desktop;
+application/wps-office.pptx=wps-office-wpp.desktop;
+text/html=iceweasel.desktop;
+application/wps-office.xls=wps-office-et.desktop;
+application/wps-office.xlsx=wps-office-et.desktop;libreoffice-calc.desktop;
+
+[Removed Associations]
+
+[Default Applications]
+application/wps-office.docx=wps-office-wps.desktop
+application/wps-office.pptx=wps-office-wpp.desktop
+text/html=iceweasel.desktop
+application/wps-office.xls=wps-office-et.desktop
+application/wps-office.xlsx=libreoffice-calc.desktop

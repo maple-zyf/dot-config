@@ -1,0 +1,89 @@
+{
+   "copy": {
+      "description": "",
+      "message": "複製"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "管理你的下載快速通道。是你的方便、快捷、高效的工具！媒體資源探測: 視頻(mp4, avi, asf, mpg等), 音頻(mp3, wav等), 圖片等"
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "下載+"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "從磁盤"
+   },
+   "from_list": {
+      "description": "",
+      "message": "從列表"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "我喜歡它"
+   },
+   "keep": {
+      "description": "",
+      "message": "保持"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "不再出現提醒"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "下載完成！"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "當通知點擊時"
+   },
+   "open": {
+      "description": "",
+      "message": "打開"
+   },
+   "open_file": {
+      "description": "",
+      "message": "打開文件"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "預覽列表"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "推薦應用"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "下載完成通知"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "只能說明當危險"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "設置"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "在文件夾中顯示"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "僅顯示下載按鈕"
+   },
+   "stats_show_iconnumber": {
+      "message": "在圖標上顯示數量"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "開啟功能"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "我想要其它功能"
+   }
+}

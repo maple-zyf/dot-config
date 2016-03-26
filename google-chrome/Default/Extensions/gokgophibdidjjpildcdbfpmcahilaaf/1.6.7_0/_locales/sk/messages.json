@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "kópie"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Správa preberania quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Download +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "Z disku"
+   },
+   "from_list": {
+      "description": "",
+      "message": "zo zoznamu"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Páči sa mi to"
+   },
+   "keep": {
+      "description": "",
+      "message": "zachovať"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Už sa zdá , pripomenúť"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Na stiahnutie Complete !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Na oznámenie Click , Do"
+   },
+   "open": {
+      "description": "",
+      "message": "otvoriť odkaz"
+   },
+   "open_file": {
+      "description": "",
+      "message": "otvoriť súbor"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Odporúčaná App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Na stiahnutie Dokončenie oznámenia"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "zobraziť iba vtedy , keď nebezpečenstvo"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "nastavenie"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "výstava v priečinku"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Ukázať iba tlačidlo pre stiahnutie"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Zobraziť číslo v ikone"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Zapnúť funkciu"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Chcem ďalšie funkcie"
+   }
+}

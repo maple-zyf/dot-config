@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "копія"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Управління завантаженнями quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "завантажити +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "З диска"
+   },
+   "from_list": {
+      "description": "",
+      "message": "зі списку"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Мені подобається це"
+   },
+   "keep": {
+      "description": "",
+      "message": "тримати"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Більше не з'являється, щоб нагадати"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Завантажити Complete !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "На Повідомлення Натисніть, У"
+   },
+   "open": {
+      "description": "",
+      "message": "відкрити посилання"
+   },
+   "open_file": {
+      "description": "",
+      "message": "відкрити файл"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Рекомендована App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Завершення завантаження Повідомлення"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "показувати лише коли небезпека"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "налаштування"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "показати в папці"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Показати тільки кнопку завантажити"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Показати номер в іконку"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Увімкніть функцію"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Я хочу інші функції"
+   }
+}

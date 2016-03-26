@@ -1,0 +1,89 @@
+{
+   "copy": {
+      "description": "",
+      "message": "복사"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "당신의 다운로드 패스트 트랙 을 관리합니다. 미디어 자료 검색 : 동영상 (MP4, AVI, ASF, MPG 등), 오디오 (MP3, WAV 등), 이미지, 등"
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "다운로드 +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "디스크"
+   },
+   "from_list": {
+      "description": "",
+      "message": "목록에서"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "나는 그것을 사랑 해요"
+   },
+   "keep": {
+      "description": "",
+      "message": "유지"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "더 이상 상기시켜 나타납니다"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "다운로드가 완료되었습니다!"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "때 알림 클릭"
+   },
+   "open": {
+      "description": "",
+      "message": "켜"
+   },
+   "open_file": {
+      "description": "",
+      "message": "파일을 엽니 다"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "미리보기 목록"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "권장 애플리케이션"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "전체 다운로드 공지 사항"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "때만위험 도시"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "설정"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "폴더 에 표시됩니다"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "만 다운로드 버튼을 보기"
+   },
+   "stats_show_iconnumber": {
+      "message": "아이콘 수를 표시합니다"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "열기 기능"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "나는 다른 기능을 할"
+   }
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/window.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico?v=1.2.0" />
+<title>翰林英汉双解词典</title>
+</head>
+<body>
+    <div id="texture">
+    </div>
+    <div id="topbar">
+    	<div id="logo"><img src="img/logo-text.png"/></div>
+         <div id="searchbox">
+            <input id="searchbox-input" temp="" />
+            <input id="searchbox-go" type="button" value="Search" />
+        </div>
+        <div id="search-results-w">
+        	<div class="occupy"></div>
+  
+        </div>
+        <div id="tabs-dict" class="tabs">
+        	<div id="tab-bing" class="i left" dict="bing">必应</div>
+            <div id="tab-youdao" class="i middle" dict="youdao">有道</div>
+            <div id="tab-dictionary" class="i right" dict="dictionary">Dictionary</div>
+        </div>
+		<div id="tabs-read" class="tabs">
+        	<div class="i left selected">News</div>
+            <div class="i middle">Technology</div>
+			<div id="tab-art" class="i middle">DIY</div>
+            <div id="tab-sports" class="i middle">Sports</div>
+            <div id="tab-food" class="i middle emit">Food</div>
+            <div id="tab-fashion" class="i middle emit">Design</div>
+            <div id="tab-travel" class="i middle emit">Travel</div>
+            <div id="tab-travel" class="i right">Cars</div>
+        </div>
+        
+        <div id="tabs-fswitch" class="tabs">
+        	<div id="tab-fon" class="i left selected">Flip On</div>
+            <div id="tab-foff" class="i right">Off</div>
+        </div>
+
+    </div>
+    <div id="leftmenu" class="adjustheight"><div>
+    	<div class="cell">
+            <div class="cardhandle">
+                <div class="text"><div class="ico clip"/></div>单词列表</div>
+            </div>
+            <div class="content">
+            	<div class="i selected recent"><div class="ico history"/></div>最近查询的单词</div>
+                <div class="i more"><div class="ico more"/></div>More过的单词</div>
+                <div class="i today"><div class="ico review"/></div>今天的复习本</div>
+            </div>
+        </div>
+        
+        <div class="cell">
+            <div class="cardhandle">
+                <div class="text"><div class="ico clip"/></div>功能</div>
+            </div>
+            <div class="content">
+                <div class="i search"><div class="ico search"/></div>单词查询</div>
+                <div class="i setting"><div class="ico settings"/></div>词典设置</div>
+                <div class="i help"><div class="ico help"/></div>帮助</div>
+            </div>
+        </div>
+    </div></div>
+    <div id="wordlist" class="adjustheight"></div>
+    <div id="flipboard-shield" class="adjustheight shield"></div>
+    <div id="flipboard" class="adjustheight">
+    	<iframe src="" id="flipboard-iframe" frameborder="0" width="100%" height="100%" style="background:white;"></iframe>
+    </div>
+    <div id="result" class="adjustheight">
+    	<div id="result-inner">
+        	<div id="result-progress"><div id="result-progress-head"></div></div>
+            <iframe src="" class="iframeresult" frameborder="0" width="100%" height="100%" id="youdao-dict"></iframe>
+            <iframe src="" class="iframeresult" frameborder="0" width="100%" height="100%" id="bing-dict"></iframe>
+            <iframe src="" class="iframeresult" frameborder="0" width="100%" height="100%" id="dictionary-dict"></iframe>
+        </div>
+        <div id="result-op">
+        	<div class="b return" title="关闭词条释义"><img src="img/op-return.png" /></div>
+            <div class="b url" title="查看单词原上下文"><img src="img/op-link.png" /></div>
+            <div class="b drop" title="从列表中删去此词条"><img src="img/op-trash.png" /></div>
+            <div class="end"></div>
+        </div>
+    </div>
+    
+    <div id="setting" class="adjustheight mode"><div class="mode-inner">
+    	<div class="iw"><div class="i"><label>双击划词：<input id="dbclick" type="checkbox" style="margin-left:100px"/></label></div></div>
+        <div class="iw"><div class="i"><label>Ctrl+鼠标左键划词：<input id="ctrlclick" type="checkbox" style="margin-left:100px"/></label></div></div>
+        <div class="iw"><div class="i"><label>自动发音：<input id="autosclick" type="checkbox" style="margin-left:100px"/></label></div></div>
+        <div class="iw ulli1" id="themes">
+        	主题设置：
+            <ul>
+            	<li theme="default">默认 Chrome 主题</li>
+                <li theme="classic">经典木栏</li>
+                <div class="clear"></div>
+            </ul>
+            
+        </div>
+        <div class="iw ulli1" id="dict-types">
+        	词典首选项：
+            <ul>
+            	<li dict-type="bing">必应（Bing）</li>
+                <li dict-type="youdao">有道</li>
+                <li dict-type="dictionary">Dictionary</li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        
+        <div class="iw ulli1" id="dict-operation">
+        	操作：
+            <ul>
+            	<li id="op-clear-words">清空最近查询历史</li>
+                <li id="op-clear-more">清空More历史</li>
+                <li id="op-export">导出词条</li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        
+    </div></div>
+    <div id="help" class="adjustheight mode"><div class="mode-inner">
+    	<div class="iw"><div class="i">
+        	<strong>太喜欢了想捐赠？</strong><br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="margin-top:10px;">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHVwYJKoZIhvcNAQcEoIIHSDCCB0QCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYA4GAyJWzXiEDYdu4ixvdbDuaYRbXMDwq5BMFh3yvjyQw1wuwhuSnWlPDCddrQPVLjLEoQU+BJKxk8b8onVAUHaTjmblfBbVs8XDYW5Rh+k9LBI5toALjSMYdBPN/ODiDtt7ScIwO5xv3I0XNp2+i2PBUq/awggZX3UDOjYAlWAuTELMAkGBSsOAwIaBQAwgdQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIBcPyMqXyFIKAgbDjvT8qsUh6ENiNDCHKy9E8F8AG99Piwlp746Xeu3H6ZCGDHNZpzKHm1ByGoV9v9I3r2jClo3pmYJubEkdVJd+sFbPrFsUFz1aoPYGUeUVLOHvryq8VwF48WGUOgiadLWb+Q7g/yezPfBzXHRr1TdyuxMDessnKxvmA5l4rSgZhKgEToP3l/0UzUlC9S+oPwNDa+XKRa1Dwbf/S4xh//XWdlF5fcJwDT67cJTEd4HTNYKCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE2MDExMjE4MDMxMlowIwYJKoZIhvcNAQkEMRYEFOiCYPVdgdpHkgyHqrO8G9t/qZ+7MA0GCSqGSIb3DQEBAQUABIGAS20KPwf0UScEsP/4oAuvtBi2vjhA4WaGpPcZB1BqQJSOjC7XMRpTp7bSWFlV+nycHGpPH6+ha2qHtQKjLXCib0L7yzm++LiQHyGxxaMwa3vQLOnGPJLJ1H7MJ0mpvdwKvgP/0qQJqw1goQkIKmkC8LCkWD3ArOkcFi1NKeOaNUQ=-----END PKCS7-----
+" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+
+
+        </div></div>
+        
+     <div class="iw"><div class="i">
+     <strong>如何在桌面或工具栏添加翰林词典的快捷方式？</strong><br />
+            <img src="img/shortcut.png" style="margin-top:10px;"/><br />
+            
+            现在，点击Chrome 菜单 <img src="img/chromemenu.png" style="vertical-align:middle;"/> >> 工具 >> 创建应用快捷方式<br />
+            英文版点击 Chrome 菜单 <img src="img/chromemenu.png" style="vertical-align:middle;"/> >> More tools >> Create application short cuts...
+    </div></div>
+    <div class="iw"><div class="i">
+        	<strong>为什么某些https页面有道词典和Dictionary词典不能正常显示？</strong><br />
+            有些网站为了用户安全，会禁用一些插件来保证安全性能。这时往往需要用户您的授权。请注意此时的Chrome地址栏右侧这时会出现一个小盾牌，点击它，允许这个网址内部访问有道词典，就可以查词了。如下图：<br />
+            <img src="img/error_1.png" style="margin-top:10px;"/>
+        </div></div>
+        <div class="iw"><div class="i">
+        	<strong>怎么关闭双击查词功能？</strong><br />
+            在翰林词典主界面内部点击左侧“词典设置”栏目，勾掉相关项即可。
+        </div></div>
+        <div class="iw"><div class="i">
+        	<strong>我有很多好建议想提给作者，怎么联系？</strong><br />
+            您可以在<a href="https://chrome.google.com/webstore/detail/fidicgekecdkdmkjghdgadgdmcfodfid" target="_blank">Chrome应用市场</a>里面给插件留言啊~有什么好建议我都会马上考虑的，正是大家的及时反馈翰林词典才能成长到今天，谢谢大家，所以有意见请直接提，不要拘束哦~
+        </div></div>
+        <div class="iw"><div class="i">
+        	内什么<br />
+            如果大家觉得这个插件还不错的话，可以去<a href="https://chrome.google.com/webstore/detail/fidicgekecdkdmkjghdgadgdmcfodfid" target="_blank">Chrome应用市场</a>上评个分什么的，让更多的人能够看见这款插件。<br />
+            <br />
+            再次谢谢大家支持<br />
+            祝使用愉快<br /><br />
+            更新日期：2016-01-12<br />
+            版本号：1.3.2<br />
+        </div></div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/window.js""></script>
+</div></body>
+</html>

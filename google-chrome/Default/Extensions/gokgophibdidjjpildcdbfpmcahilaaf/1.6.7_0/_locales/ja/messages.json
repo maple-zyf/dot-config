@@ -1,0 +1,89 @@
+{
+   "copy": {
+      "description": "",
+      "message": "コピー"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "あなたのダウンロードファーストトラックを管理します。メディアリソース検出：ビデオ（MP4、AVI、ASF、MPG、など）、オーディオ（MP3、WAV、など）、画像など"
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "ダウンロード+"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "ディスク"
+   },
+   "from_list": {
+      "description": "",
+      "message": "リストから、"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "大好きです"
+   },
+   "keep": {
+      "description": "",
+      "message": "維持する"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "もはや思い出させるために表示されません"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "ダウンロードが完了です！"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "ときに通知をクリック"
+   },
+   "open": {
+      "description": "",
+      "message": "オンにする"
+   },
+   "open_file": {
+      "description": "",
+      "message": "ファイルをオープンする"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "プレビューリスト"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "推奨用途"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "完了通知をダウンロード"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "場合にのみ、危険性を示して"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "セットアップ"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "フォルダに表示されます"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "のみダウンロードボタンを表示"
+   },
+   "stats_show_iconnumber": {
+      "message": "アイコン数を表示します"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "関数を開く"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "私は、他の機能が欲しい"
+   }
+}

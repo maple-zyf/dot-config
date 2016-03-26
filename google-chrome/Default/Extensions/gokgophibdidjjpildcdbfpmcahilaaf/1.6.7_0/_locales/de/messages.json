@@ -1,0 +1,90 @@
+{
+   "copy": {
+      "description": "",
+      "message": "Kopie"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Verwalten Sie Ihre Downloads quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Download +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "von Diskette"
+   },
+   "from_list": {
+      "description": "",
+      "message": "aus Liste"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Ich mag es"
+   },
+   "keep": {
+      "description": "",
+      "message": "halten"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Erscheint nicht mehr daran erinnern,"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Komplette Download!"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Auf Meldung klicken , Do"
+   },
+   "open": {
+      "description": "",
+      "message": "open link"
+   },
+   "open_file": {
+      "description": "",
+      "message": "öffne datei"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "Vorschau Liste"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Empfohlene App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Laden Fertigstellung Benachrichtigungen"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "nur zeigen, wenn Gefahr"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Einstellungen"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "Show in Ordner"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Nur Download-Button"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Zeigen Sie Zahl im Symbol"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Schalten Sie Funktion"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Ich möchte andere Funktionen"
+   }
+}

@@ -1,0 +1,89 @@
+{
+   "copy": {
+      "description": "",
+      "message": "复制"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "管理你的下载快速通道。是你的方便、快捷、高效的工具！媒体资源探测下载: 视频, 音频, 图片等"
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "下载+"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "从磁盘"
+   },
+   "from_list": {
+      "description": "",
+      "message": "从列表"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "我喜欢它"
+   },
+   "keep": {
+      "description": "",
+      "message": "保持"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "不再出现提醒"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "下载完成！"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "当通知点击时"
+   },
+   "open": {
+      "description": "",
+      "message": "打开"
+   },
+   "open_file": {
+      "description": "",
+      "message": "打开文件"
+   },
+   "preview_list": {
+      "description": "",
+      "message": "预览列表"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "推荐应用"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "下载完成通知"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "只能说明当危险"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "设置"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "在文件夹中显示"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "仅显示下载按钮"
+   },
+   "stats_show_iconnumber": {
+      "message": "在图标上显示数量"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "开启功能"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "我想要其它功能"
+   }
+}

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+#hldict-pop{
+	position:absolute;
+	font-family:Segoe UI, Tahoma, sans-serif;
+	font-size:13px; 
+	line-height:1.5em; 
+	background:transparent;
+	color:black;
+	 z-index: 2014083000;
+}
+#hldict-pop-texture{
+	height:20px;
+	background:url(img/wood.jpg) bottom left;
+	border:1px solid #963;
+	border-radius:2px 2px 0 0;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+#hldict-pop-close{
+	float:right; 
+	margin:3px 3px 0 0;
+	width:15px;
+	height:15px;
+	background:url(img/header-buttons.png);
+	background-position:-5px -3px;
+	cursor:pointer;
+}
+#hldict-pop-close.hldict-hover{
+	background-position:-5px -19px;
+}
+#hldict-pop-content{
+	padding:5px 10px 10px 10px; 
+	border-radius:0 0 3px 3px;
+	border:1px solid #ddd;
+	border-top:none;
+	background:white;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+	color:black;
+}
+#hldict-poparrow-w{
+	position:relative;
+	height:7px;
+}
+#hldict-poparrow-w.up{
+	margin:0 0 -1px 0;
+}
+#hldict-poparrow-w.down{
+	margin:-2px 0 0 0;
+}
+#hldict-poparrow{
+	width:14px;
+	height:7px;
+	left:50%; 
+	margin-left:-7px;
+	position:absolute;
+	z-index:20130907
+}
+#hldict-poparrow.up{
+	background:url(img/poparrow.png);
+}
+#hldict-poparrow.down{
+	background:url(img/poparrow.png) bottom;
+}
+
+#hldict-pop-title{
+	font-size:14px;
+}
+
+#hldict-pop-title strong{
+	margin-right:10px;
+	color:black;
+	font-weight:bold;
+}
+
+#hldict-pop-title #hldict-pop-play{
+	float:right;
+	margin:3px 0 0 0;
+	cursor:pointer;
+	width:12px; 
+	height:12px;
+	background:url(img/sound.png);
+	display:none;
+}
+
+#hldict-pop-detail{
+	padding-top:5px;
+	color:black;
+	font-size:12px;
+	text-align:left;
+	font-weight:normal; 
+}
+
+#hldict-pop-more{
+	color:#e76725;
+	text-align:right;
+	cursor:pointer;
+}
+
+#hanlin-dict-w{
+	position:fixed;
+	right:0;
+	top:0;
+	width:0;
+	height:100%;
+	z-index:2014083000;
+}
+
+#hanlin-dict{
+	border:none; 
+	margin:0;
+	padding:0;
+}
+#hanlin-dict-minwidth{
+	width:55px;
+	height:0px;
+}

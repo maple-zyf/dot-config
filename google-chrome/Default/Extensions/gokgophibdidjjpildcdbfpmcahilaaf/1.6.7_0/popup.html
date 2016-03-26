@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Notice-Downloads Plus</title>
+    <link href="css/main.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/popup.min.js"></script>
+    <style type="text/css">
+    html,body{min-width:350px;min-height: 200px;background: #f6f6f6;margin:0px;padding:4px;}
+    #dangerItemBox{width:350px;margin:0px auto;background: #fff;padding:1px;padding-top:6px;border-radius: 4px;
+    border:solid 0px #f1f1f1;box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.28);margin-top:5px;
+    }
+    .itemIcon img{vertical-align: middle;margin-left:5px;}
+	.itemName{margin-left:2px;font-weight:bold;font-family:arial;display:inline-block;font-size:14px;word-wrap: break-word;word-break:break-all; }
+    .dangerHandle{height:50px;background: #eee;margin-top:10px;text-align: center;border-top:solid 1px #ddd;}
+    button{
+        background-color: #f7f7f7;
+        background: -webkit-linear-gradient(#fff, #f0f0f0);
+        background: linear-gradient(#fff, #f0f0f0);
+        border: 1px solid #ccc;
+        color: #5f5f5f;
+        cursor: pointer;
+        font-weight: bold;
+        text-shadow: 0 1px #fff;
+        white-space: nowrap;
+        background-color: #f0f0f0;
+        padding: 7px 13px;
+        margin:4px;margin-top:6px;
+        outline: none;
+        border-radius: 3px;
+    }
+    button:hover{
+        background: -webkit-linear-gradient(#f0f0f0, #d6d6d6);
+        background: linear-gradient(#f0f0f0, #d6d6d6);        
+    }
+    button img{vertical-align: middle;width:24px;}
+    .dangerNoticeBox{display: none;}
+    .dangerNoBox{display: block;height:100px;background: url(icons/icon_safe.png) center no-repeat;}
+    </style>
+</head>
+<body>
+<div id="dangerItemBox">
+    <div class="dangerNoticeBox">
+    	<span class="itemIcon">
+    		<img src="icons/48_danger.png" width="40" height="40">
+    	</span>
+    	<p class="itemName">
+        adblock-plus-online-extension.crx
+    	</p>
+        <div class="dangerHandle">
+            <button class="iconRetry"><img src="icons/icon_retry.png"></button>
+            <button class="iconDel"><img src="icons/icon_del.png"></button>
+        </div>
+    </div>
+    <div class="dangerNoBox"></div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js/stat.min.js"></script>

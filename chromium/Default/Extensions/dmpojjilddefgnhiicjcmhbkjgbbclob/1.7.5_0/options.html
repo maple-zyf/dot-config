@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+  <link rel="stylesheet" href="css/options.css" type="text/css"/>
+  <title>Options</title>
+</head>
+<body class="loading">
+<a class="setup btn icon" href="#" title="Chameleon options"></a>
+
+<div class="setupBody">
+  <div class="container">
+    <div class="menu">
+      <a href="#" data-page="extension" class="active">Extension</a>
+      <a href="#" data-page="documentation">Documentation</a>
+    </div>
+    <div class="page extension active">
+      <div class="extOnly title">
+        <span id="extName" class="bold"></span>
+        <span id="extVersion"></span>
+      </div>
+      <p class="extOnly" id="extDesc"></p>
+      <p class="extOnly">
+        <span>ID:</span>
+        <span id="appId"></span>
+      </p>
+      <p class="extOnly">
+        <input type="button" value="Check update" id="checkUpdateBtn">
+        <span id="updateStatus"></span>
+      </p>
+      <p class="extOnly">
+        <input type="button" value="Remove extension" id="removeBtn">
+      </p>
+      <p class="noExtOnly title">
+        <span>Download extension from </span>
+        <a href="https://addons.opera.com" target="_blank">
+          <span class="bold">Opera</span>
+          <span>add-ons</span>
+        </a>
+      </p>
+      <p class="noExtOnly">
+        <label>
+          <span>Select extension file:</span>
+          <input id="extInput" type="file" accept="application/zip,application/x-chrome-extension,.nex">
+        </label>
+      </p>
+    </div>
+    <div class="page documentation">
+<pre id="markdown">
+Welcome to Chameleon!
+===================
+
+
+This extension allow to run other extensions from **Opera** add-ons
+
+Feedback [chameleon.ext@gmail.com](mailto:chameleon.ext@gmail.com)
+
+----------
+
+#### Manifest
+
+##### Supported items
+
+ - icons
+ - browser_action
+ - background
+ - content_scripts (run at document\_end only)
+
+##### Permissions:
+
+{permission list}
+
+#### Content Scripts
+
+Content Scripts eval directly without emulation API
+
+#### Supported sync API functions
+
+This function return response.
+
+{api sync list}
+
+#### Supported async API functions
+
+Extension emulates all async browser function, but does not return sync response
+
+{api async list}
+
+#### Supported API variables
+
+{api var list}
+
+</pre>
+    </div>
+  </div>
+</div>
+<script src="js/tools.js"></script>
+<script src="js/options.js"></script>
+<script src="js/markdown.min.js"></script>
+</body>
+</html>

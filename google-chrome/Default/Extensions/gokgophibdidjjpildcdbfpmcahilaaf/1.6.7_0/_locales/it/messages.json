@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "copia"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Gestisci i tuoi download quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Scarica +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "Da Disk"
+   },
+   "from_list": {
+      "description": "",
+      "message": "Da List"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Mi piace"
+   },
+   "keep": {
+      "description": "",
+      "message": "mantenere"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Non più sembra ricordare"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Scarica Complete !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Al momento della notifica Click, Do"
+   },
+   "open": {
+      "description": "",
+      "message": "Link aperto"
+   },
+   "open_file": {
+      "description": "",
+      "message": "apri il file"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "App consigliato"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Scarica Completamento Notifiche"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "mostrare solo quando il pericolo"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Impostazioni"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "mostra nella cartella"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Mostra solo pulsante per il download"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Mostra numero in icona"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Attivare la funzione"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Voglio altre funzioni"
+   }
+}

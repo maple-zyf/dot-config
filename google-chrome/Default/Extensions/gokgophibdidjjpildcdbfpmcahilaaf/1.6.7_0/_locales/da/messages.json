@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "kopi"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Administrer dine downloads quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Hent +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "Fra Disk"
+   },
+   "from_list": {
+      "description": "",
+      "message": "Fra liste"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Jeg kan lide det"
+   },
+   "keep": {
+      "description": "",
+      "message": "Hold"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Ikke længere synes at minde"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Hent Complete !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "Om anmeldelse Klik , Gør"
+   },
+   "open": {
+      "description": "",
+      "message": "Åbn link"
+   },
+   "open_file": {
+      "description": "",
+      "message": "åben fil"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Anbefalet App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Hent Afslutning Meddelelser"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "vises kun, når fare"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Indstillinger"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "Vis i mappe"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Vis kun download-knappen"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Vis nummer i ikon"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Aktiver funktion"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Jeg vil have andre funktioner"
+   }
+}

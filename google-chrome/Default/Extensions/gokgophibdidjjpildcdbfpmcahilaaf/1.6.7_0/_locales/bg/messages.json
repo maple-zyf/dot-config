@@ -1,0 +1,86 @@
+{
+   "copy": {
+      "description": "",
+      "message": "копие"
+   },
+   "extetion_description": {
+      "description": "",
+      "message": "Управлявайте изтеглянията quikly . "
+   },
+   "extetion_title": {
+      "description": "",
+      "message": "Download +"
+   },
+   "from_disk": {
+      "description": "",
+      "message": "От Disk"
+   },
+   "from_list": {
+      "description": "",
+      "message": "от списъка"
+   },
+   "i_like_it": {
+      "description": "",
+      "message": "Харесва ми"
+   },
+   "keep": {
+      "description": "",
+      "message": "държа"
+   },
+   "never_remind": {
+      "description": "",
+      "message": "Вече не се появява , за да напомним"
+   },
+   "noti_download_complete": {
+      "description": "",
+      "message": "Свали Complete !"
+   },
+   "on_noti_click": {
+      "description": "",
+      "message": "При уведомяване Click , Смятате"
+   },
+   "open": {
+      "description": "",
+      "message": "отворена връзка"
+   },
+   "open_file": {
+      "description": "",
+      "message": "отворен файл"
+   },
+   "recommend_app": {
+      "description": "",
+      "message": "Препоръчителна App"
+   },
+   "setting_option1": {
+      "description": "",
+      "message": "Изтегляне на завършване Известия"
+   },
+   "setting_option2_desc": {
+      "description": "",
+      "message": "показва само когато опасността"
+   },
+   "setting_setting": {
+      "description": "",
+      "message": "Settings"
+   },
+   "show_in_folder": {
+      "description": "",
+      "message": "Показване в папката"
+   },
+   "show_only_button": {
+      "description": "",
+      "message": "Покажи само бутон за изтегляне"
+   },
+   "stats_show_iconnumber": {
+      "description": "",
+      "message": "Покажи брой в икона"
+   },
+   "turn_on_function": {
+      "description": "",
+      "message": "Включете функцията"
+   },
+   "want_other_function": {
+      "description": "",
+      "message": "Искам други функции"
+   }
+}
