@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=emacs24
+GenericName=emacs
+Comment= gnu editor
+Exec= /bin/sh -c "LC_CTYPE=zh_CN.UTF-8 /usr/bin/emacs24 --daemon"
+Icon= emacs
+Terminal=false
+Type=Application
+Categories=Utility;Application;
+X-GNOME-Autostart-enabled=true
+Hidden=ture
+

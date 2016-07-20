@@ -1,5 +1,21 @@
-2016/03/26-09:47:04.579 26177 Reusing MANIFEST /home/maple/.config/google-chrome/Default/File System/Origins/MANIFEST-000001
-2016/03/26-09:47:04.579 26177 Recovering log #306
-2016/03/26-09:47:04.580 26177 Recovering log #308
-2016/03/26-09:47:04.580 26177 Recovering log #309
-2016/03/26-09:47:04.580 26177 Recovering log #310
+2016/03/30-21:09:22.541 8175 Reusing MANIFEST /home/maple/.config/google-chrome/Default/File System/Origins/MANIFEST-000001
+2016/03/30-21:09:22.541 8175 Recovering log #306
+2016/03/30-21:09:22.541 8175 Recovering log #308
+2016/03/30-21:09:22.541 8175 Recovering log #309
+2016/03/30-21:09:22.541 8175 Recovering log #310
+2016/03/30-21:09:22.541 8175 Recovering log #311
+2016/03/30-21:09:22.636 8175 Level-0 table #311: started
+2016/03/30-21:09:22.793 8175 Level-0 table #311: 142 bytes OK
+2016/03/30-21:09:22.938 8175 Delete type=0 #306
+2016/03/30-21:09:22.978 8175 Delete type=0 #310
+2016/03/30-21:09:22.978 8175 Delete type=0 #309
+2016/03/30-21:09:22.978 8175 Delete type=0 #311
+2016/03/30-21:09:22.978 8175 Delete type=0 #308
+2016/03/30-21:09:23.115 8191 Compacting 4@0 + 0@1 files
+2016/03/30-21:09:23.274 8191 Generated table #313: 2 keys, 171 bytes
+2016/03/30-21:09:23.274 8191 Compacted 4@0 + 0@1 files => 171 bytes
+2016/03/30-21:09:23.521 8191 compacted to: files[ 0 1 0 0 0 0 0 ]
+2016/03/30-21:09:23.521 8191 Delete type=2 #305
+2016/03/30-21:09:23.522 8191 Delete type=2 #3
+2016/03/30-21:09:23.544 8191 Delete type=2 #35
+2016/03/30-21:09:23.544 8191 Delete type=2 #311

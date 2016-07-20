@@ -1,5 +1,14 @@
-2016/03/26-09:47:06.070 26177 Reusing MANIFEST /home/maple/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2016/03/26-09:47:06.070 26177 Recovering log #1849
-2016/03/26-09:47:06.071 26177 Level-0 table #1851: started
-2016/03/26-09:47:06.184 26177 Level-0 table #1851: 46777 bytes OK
-2016/03/26-09:47:06.307 26177 Delete type=0 #1849
+2016/03/30-21:09:39.387 8134 Reusing MANIFEST /home/maple/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2016/03/30-21:09:39.387 8134 Recovering log #1852
+2016/03/30-21:09:39.399 8134 Level-0 table #1854: started
+2016/03/30-21:09:39.450 8134 Level-0 table #1854: 23738 bytes OK
+2016/03/30-21:09:39.506 8134 Delete type=0 #1852
+2016/03/30-21:09:39.506 8191 Compacting 4@0 + 1@1 files
+2016/03/30-21:09:39.656 8191 Generated table #1856: 1375 keys, 39654 bytes
+2016/03/30-21:09:39.657 8191 Compacted 4@0 + 1@1 files => 39654 bytes
+2016/03/30-21:09:39.776 8191 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/03/30-21:09:39.776 8191 Delete type=2 #1848
+2016/03/30-21:09:39.776 8191 Delete type=2 #1843
+2016/03/30-21:09:39.790 8191 Delete type=2 #1845
+2016/03/30-21:09:39.807 8191 Delete type=2 #1854
+2016/03/30-21:09:39.807 8191 Delete type=2 #1851

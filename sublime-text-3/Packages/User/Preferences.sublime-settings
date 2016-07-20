@@ -1,9 +1,9 @@
 {
 	"font_face": "WenQuanYi Micro Hei Regular",
 	"font_size": 11,
-	 "tab_size": 4,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"tab_size": 4
 }

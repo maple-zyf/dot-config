@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec= /home/maple/scripts/disableTouchpad.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[zh_CN]=disable-touchpad
+Name=disable-touchpad
+Comment[zh_CN]=禁用触摸板
+Comment=disable touchpad

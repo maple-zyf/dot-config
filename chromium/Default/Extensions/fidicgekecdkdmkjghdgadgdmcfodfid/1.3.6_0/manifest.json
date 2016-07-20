@@ -1,0 +1,48 @@
+{
+   "author": "Haosen Wang",
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "img/icon-128.png",
+         "16": "favicon.ico",
+         "19": "img/icon-19.png",
+         "38": "img/icon-38.png"
+      },
+      "default_title": "翰林英汉双解词典"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/jquery.min.js", "js/content_general.js" ],
+      "matches": [ "http://*/*", "https://*/*", "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "js/jquery.min.js", "js/content_special_before.js" ],
+      "matches": [ "http://dict.youdao.com/*", "http://account.youdao.com/*", "http://cn.bing.com/dict*", "https://cn.bing.com/dict*", "http://dictionary.reference.com/browse/*", "http://app.dictionary.com/signup/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "js/jquery.min.js", "js/content_special_after.js" ],
+      "matches": [ "http://dict.youdao.com/*", "http://account.youdao.com/*", "http://cn.bing.com/dict/*", "https://cn.bing.com/dict/*", "http://dictionary.reference.com/browse/*", "http://app.dictionary.com/signup/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "js/jquery.min.js", "js/content_flipboard.js" ],
+      "matches": [ "https://flipboard.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "这是一款基于有道词典、必应词典、Dictionary等多家权威机构发布内容的英汉双解词典，支持右键查询，双击划词翻译，视觉优化，单词本等众多功能。",
+   "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtUbLaw2Stq7N/BL8v37S6ZrlpM0dZGjyxBTepL2UnCRiIvKzlaeY+FPthkn58O97b5GlaGvFgKYoUNhqyzAs51GpQwYvGdv4Pa/EhDVO4wcZKLTORJT4Ow+IzPjrw51uBABoikXD6gNvocQqxRjanH8DofXrf8yDvIKbXXGWWMQIDAQAB",
+   "manifest_version": 2,
+   "name": "翰林英汉双解词典",
+   "permissions": [ "webRequest", "webRequestBlocking", "webNavigation", "idle", "contextMenus", "storage", "tabs", "http://dict.youdao.com/*", "http://cn.bing.com/dict*", "https://cn.bing.com/dict*", "http://dictionary.reference.com/*", "http://api.bing.com/*", "http://impservice.dictapp.youdao.com/*", "http://fanyi.youdao.com/fanyiapi.do*", "https://flipboard.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.6",
+   "web_accessible_resources": [ "sidebar.html", "window.html", "export.html", "img/wood.jpg", "img/header-buttons.png", "img/sound.png", "img/poparrow.png", "themes/*" ]
+}

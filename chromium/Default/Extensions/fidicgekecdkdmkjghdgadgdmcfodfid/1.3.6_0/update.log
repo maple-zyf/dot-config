@@ -1,0 +1,125 @@
+This is the update log of the Chrome Extension:
+Hanlin English-Chinese Dictionary
+By W.Haosen (haosenwang@gmail.com)
+
+2013-09-03
+Version 1.0.0
+Project created.
+Extension with sidebar. Translation used three
+sources: Youdao, Bing, Dictionary
+
+Version 1.0.1
+Sidebar with immediate searching combined with
+the Microsoft Bing searching API
+
+Version 1.0.2
+Build up a pop up window which can be dbclicked.
+The searching API is built based on Youdao
+
+Version 1.0.3
+Mouse and Ctrl key to translate
+
+2013-12-01
+Version 1.0.6
+Press Esc key to close popup window
+Add the Command button as the operation button
+in Mac operating system.
+Mouse hover pop up window sound icon to pronounce
+Update of advertisement blocking method for
+Dictionary.com
+
+2014-01-01
+Version 1.0.7
+Adjust of pop up window
+Fixation of Bing link parameters
+
+2014-01-03
+Version 1.1.0
+Click margin to close the side dictionary
+Build the main window frame UI and functions.
+By the way, happy new year.
+
+2014-01-06
+Version 1.1.1
+Focus on the input when the main window is open
+Record the input data in the main window
+
+2014-01-07
+Version 1.1.2
+The operation bar of the dictionary is finished
+
+2014-01-08
+Version 1.1.3
+Login and signup css hack for youdao and dictionary.com
+Adding the progressbar for dict page
+
+2014-08-30
+Version 1.1.4
+Update for dictionary.com because of its new UI design.
+New pin button on the sidebar. Minimise the sidebar, it remains.
+Sidebar and popcard index multiplied by 100 because of Youtube's index rule.
+Update for several new channels of Flipboard
+New Flipboard switch button
+By the way, happy birthday to myself
+
+2014-08-31
+Version 1.1.5
+Update for some iframe issues. Solve the QQ mail problem
+Update some tips for people having https problems
+
+2014-09-01
+Version 1.1.6
+Several new bugs are solved
+Https guide picture and text are added.
+
+2014-11-21
+Version 1.1.7
+Updated the https views
+Prepare for a better world
+
+2014-11-27
+Version 1.2.0
+A huge improvement
+Separate from html code and css files
+Theme selection added. Default theme and classic theme included
+Ctrl mouse option added
+High resolution favicon.ico updated
+Attachable shortcuts to quick dock and desktop
+Today is Thanks giving, I coded all day.
+Wish you like it. This little baby is one-year old.
+Wish it could be better. Best wishes to all the users. Thanks.
+
+2015-04-17
+Version 1.3.0
+After such a long time, I finally have time to update this.
+Dictionary type preference has been included.
+Chrome PDF bug has been fixed.
+Several display bug has been fixed.
+Audio load icon has been optimised.
+The flipboard has been removed. Waiting for a better content.
+
+2016-01-10
+Version 1.3.1
+Bing not display issue solved.
+
+2016-01-12
+Version 1.3.2
+Auto sound function added.
+Export words function added.
+Clear history function added.
+Happy new year.
+
+2016-01-17
+Version 1.3.3
+Flipboard comes back!
+
+2016-03-17
+Version 1.3.4
+Too many users are using Hanlin-Dict.
+This feels good. However, Youdao API limits Hanlin.
+Youdao really sucks. So I changes the API to Bing.
+Guess what? It's much more fast. What a shame on Youdao.
+
+2016-04-17
+Version 1.3.5
+Fix the bing left margin bug and did some dictionary.com mods.

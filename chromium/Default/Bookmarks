@@ -6,14 +6,14 @@
             "date_added": "13070614203000000",
             "id": "9",
             "name": "Google",
-            "sync_transaction_version": "42",
+            "sync_transaction_version": "76",
             "type": "url",
             "url": "https://www.google.com/"
          }, {
             "date_added": "13070614321000000",
             "id": "10",
             "name": "YouTube",
-            "sync_transaction_version": "62",
+            "sync_transaction_version": "72",
             "type": "url",
             "url": "https://www.youtube.com/"
          }, {
@@ -27,7 +27,7 @@
             "date_added": "13070777310000000",
             "id": "12",
             "name": "GitHub",
-            "sync_transaction_version": "51",
+            "sync_transaction_version": "74",
             "type": "url",
             "url": "https://github.com/"
          }, {
@@ -271,7 +271,7 @@
          "sync_transaction_version": "3",
          "type": "folder"
       },
-      "sync_transaction_version": "71",
+      "sync_transaction_version": "76",
       "synced": {
          "children": [  ],
          "date_added": "13103376158040952",

@@ -1,6 +1,14 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
+Version=1.0
 Name=XX-Net
-Exec=/opt/XX-Net/start.sh
-Type=Application
+GenericName=goagent
+Comment=a proxy based on goagent
+Exec= /opt/XX-Net/start
+Icon= XX-Net1
 Terminal=false
+Type=Application
+Categories=Utility;Application;
 X-GNOME-Autostart-enabled=true
+Hidden=ture
+

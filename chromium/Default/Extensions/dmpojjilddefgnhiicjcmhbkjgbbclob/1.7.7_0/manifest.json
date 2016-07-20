@@ -1,0 +1,41 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/utils.js", "js/tools.js", "js/extension.js", "js/bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/icon_19.png",
+         "38": "img/icon_38.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_matches": [ "*://addons.opera.com/*" ],
+      "js": [ "includes/sbInject.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "includes/operaStore.js" ],
+      "matches": [ "*://addons.opera.com/*/extensions/details/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Allow to run extensions from Opera add-ons",
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png",
+      "48": "img/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxYfvfMpvmN4G8Z+zaNG97o57pEIycBEZz++Zs2r5S43JD/E8wd/WHSnGRUU6CwE2amJ7XKS/BB1zC1D/SA2bUII2Vna0rqN/+XuutK1jdy6KuWG83CxJo5ZiSVBQ6TVrPpsPa8fnYl5R/6ffmKIqESk6l19Xme8hp85QWr+bHA89bbvBdunZG0EAFLl7b1+lN4jnmpd2UOHiEN530faSbzRmcVmSBo5Cl+oPLRtKkSgbx3SncN7i2DZlhtPRnIS312dqIu/g0jj3ArgbHLS80VKDtkHRtxuu9h0azedlcwP4mU4+nMzqFGpXgRqQ+l7JJdhGPiEbkav0vZDQDNGvyQIDAQAB",
+   "manifest_version": 2,
+   "name": "Chameleon",
+   "options_page": "options.html",
+   "permissions": [ "\u003Call_urls>", "tabs", "downloads", "clipboardWrite", "storage", "unlimitedStorage", "contextMenus", "notifications" ],
+   "sandbox": {
+      "pages": [ "sandbox.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.7",
+   "web_accessible_resources": [ "includes/sovetnik.opera.min.js" ]
+}

@@ -1,15 +1,20 @@
 [global_config]
   geometry_hinting = False
+  inactive_color_offset = 0.76
   borderless = True
 [keybindings]
+  close_term = None
 [profiles]
   [[default]]
-    background_image = None
-    background_darkness = 0.65
-    background_type = transparent
     scrollbar_position = hidden
+    use_system_font = False
+    background_darkness = 0.64
+    scrollback_lines = 3500
+    background_type = transparent
+    background_image = None
     icon_bell = False
     show_titlebar = False
+    font = DejaVu Sans Mono 12
 [layouts]
   [[default]]
     [[[child1]]]

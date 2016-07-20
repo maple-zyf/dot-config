@@ -1,8 +1,8 @@
 {
    "app_list": {
       "app_launch_count": 0,
-      "last_app_launch_ping": "13103424000000000",
-      "last_launch_ping": "13103424000000000",
+      "last_app_launch_ping": "13103769600000000",
+      "last_launch_ping": "13103769600000000",
       "launch_count": 0
    },
    "browser": {
@@ -35,15 +35,15 @@
       }
    },
    "ntp": {
-      "promo_resource_cache_update": "1458952705.52958"
+      "promo_resource_cache_update": "1459343364.653301"
    },
    "policy": {
-      "last_statistics_update": "13103371109225119"
+      "last_statistics_update": "13103816959425246"
    },
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1458956985.258344,
+            "active_time": 1459343399.408326,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
             "background_apps": false,
             "is_ephemeral": false,
@@ -89,29 +89,29 @@
    },
    "show-first-run-bubble-option": 0,
    "shutdown": {
-      "num_processes": 7,
-      "num_processes_slow": 1,
+      "num_processes": 6,
+      "num_processes_slow": 0,
       "type": 1
    },
    "uninstall_metrics": {
       "installation_date2": "1426134744",
-      "launch_count": "345"
+      "launch_count": "346"
    },
    "user_experience_metrics": {
       "low_entropy_source2": 6225,
-      "session_id": 344,
+      "session_id": 345,
       "stability": {
-         "breakpad_registration_fail": 345,
+         "breakpad_registration_fail": 346,
          "child_process_crash_count": 0,
          "crash_count": 67,
-         "debugger_not_present": 345,
+         "debugger_not_present": 346,
          "execution_phase": 700,
          "exited_cleanly": true,
          "extension_renderer_crash_count": 0,
          "incomplete_session_end_count": 0,
-         "last_timestamp_sec": "1458957003",
-         "launch_count": 211,
-         "launch_time_sec": "1458956824",
+         "last_timestamp_sec": "1459343399",
+         "launch_count": 212,
+         "launch_time_sec": "1459343358",
          "page_load_count": 0,
          "plugin_stats2": [ {
             "crashes": 1,

@@ -5,15 +5,38 @@ application/gzip=org.gnome.gedit.desktop;
 text/x-matlab=org.gnome.gedit.desktop;
 application/wps-office.docx=wps-office-wps.desktop;
 application/wps-office.pptx=wps-office-wpp.desktop;
-text/html=iceweasel.desktop;
+text/html=iceweasel.desktop;userapp-Iceweasel-59A6EY.desktop;
 application/wps-office.xls=wps-office-et.desktop;
 application/wps-office.xlsx=wps-office-et.desktop;libreoffice-calc.desktop;
+x-scheme-handler/http=userapp-Iceweasel-59A6EY.desktop;
+x-scheme-handler/https=userapp-Iceweasel-59A6EY.desktop;
+x-scheme-handler/ftp=userapp-Iceweasel-59A6EY.desktop;
+x-scheme-handler/chrome=userapp-Iceweasel-59A6EY.desktop;
+application/x-extension-htm=userapp-Iceweasel-59A6EY.desktop;
+application/x-extension-html=userapp-Iceweasel-59A6EY.desktop;
+application/x-extension-shtml=userapp-Iceweasel-59A6EY.desktop;
+application/xhtml+xml=userapp-Iceweasel-59A6EY.desktop;
+application/x-extension-xhtml=userapp-Iceweasel-59A6EY.desktop;
+application/x-extension-xht=userapp-Iceweasel-59A6EY.desktop;
+application/octet-stream=org.gnome.gedit.desktop;
+text/plain=emacs24.desktop;iceweasel.desktop;
 
 [Removed Associations]
 
 [Default Applications]
 application/wps-office.docx=wps-office-wps.desktop
 application/wps-office.pptx=wps-office-wpp.desktop
-text/html=iceweasel.desktop
+text/html=userapp-Iceweasel-59A6EY.desktop
 application/wps-office.xls=wps-office-et.desktop
 application/wps-office.xlsx=libreoffice-calc.desktop
+x-scheme-handler/http=userapp-Iceweasel-59A6EY.desktop
+x-scheme-handler/https=userapp-Iceweasel-59A6EY.desktop
+x-scheme-handler/ftp=userapp-Iceweasel-59A6EY.desktop
+x-scheme-handler/chrome=userapp-Iceweasel-59A6EY.desktop
+application/x-extension-htm=userapp-Iceweasel-59A6EY.desktop
+application/x-extension-html=userapp-Iceweasel-59A6EY.desktop
+application/x-extension-shtml=userapp-Iceweasel-59A6EY.desktop
+application/xhtml+xml=userapp-Iceweasel-59A6EY.desktop
+application/x-extension-xhtml=userapp-Iceweasel-59A6EY.desktop
+application/x-extension-xht=userapp-Iceweasel-59A6EY.desktop
+text/plain=emacs24.desktop

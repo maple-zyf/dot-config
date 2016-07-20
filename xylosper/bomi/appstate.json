@@ -1,0 +1,220 @@
+{
+    "ask_system_tray": true,
+    "auto_exit": false,
+    "bluray_device": "",
+    "dvd_device": "",
+    "fbo_format": "Auto",
+    "history_visible": false,
+    "last_win_pos": {
+        "x": 0,
+        "y": 0
+    },
+    "last_win_size": {
+        "height": -1,
+        "width": -1
+    },
+    "playinfo_visible": false,
+    "playlist_repeat": false,
+    "playlist_shuffled": false,
+    "playlist_visible": false,
+    "state": {
+        "audio_amplifier": 1,
+        "audio_channel_layout": "_2_0",
+        "audio_equalizer": {
+            "dbs": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "audio_muted": false,
+        "audio_sync": 0,
+        "audio_tempo_scaler": true,
+        "audio_tracks": {
+            "tracks": [
+            ],
+            "type": "audio"
+        },
+        "audio_volume": 1,
+        "audio_volume_normalizer": false,
+        "device": "",
+        "edition": -1,
+        "last_played_date_time": 0,
+        "mrl": "",
+        "name": "",
+        "play_speed": 1,
+        "resume_position": 0,
+        "star": false,
+        "sub_alignment": "Bottom",
+        "sub_display": "OnLetterbox",
+        "sub_hidden": false,
+        "sub_override_ass_position": false,
+        "sub_override_ass_scale": false,
+        "sub_position": 1,
+        "sub_scale": 0,
+        "sub_style_overriden": false,
+        "sub_sync": 0,
+        "sub_tracks": {
+            "tracks": [
+            ],
+            "type": "subtitle"
+        },
+        "sub_tracks_inclusive": {
+            "tracks": [
+            ],
+            "type": "inclusive-subtitle"
+        },
+        "version": 4,
+        "video_aspect_ratio": -1,
+        "video_chroma_upscaler": "Bilinear",
+        "video_chroma_upscaler_map": [
+            {
+                "type": "Bilinear"
+            },
+            {
+                "antiring": 0,
+                "b": 0,
+                "c": 0.5,
+                "type": "Bicubic"
+            },
+            {
+                "antiring": 0,
+                "radius": 3,
+                "type": "Spline"
+            },
+            {
+                "antiring": 0,
+                "radius": 3,
+                "type": "Lanczos"
+            },
+            {
+                "antiring": 0,
+                "blur": 0,
+                "radius": 3,
+                "type": "EwaLanczos"
+            },
+            {
+                "kernel": 3,
+                "sharpeness": 0.5,
+                "type": "Sharpen"
+            }
+        ],
+        "video_color": {
+            "blue": 0,
+            "brightness": 0,
+            "contrast": 0,
+            "green": 0,
+            "hue": 0,
+            "red": 0,
+            "saturation": 0
+        },
+        "video_crop_ratio": -1,
+        "video_deinterlacing": "Auto",
+        "video_dithering": "None",
+        "video_effects": [
+        ],
+        "video_horizontal_alignment": "Center",
+        "video_hq_downscaling": false,
+        "video_hq_upscaling": false,
+        "video_interpolator": "Bicubic",
+        "video_interpolator_down": "Bicubic",
+        "video_interpolator_down_map": [
+            {
+                "type": "Bilinear"
+            },
+            {
+                "antiring": 0,
+                "b": 0.33333333333333331,
+                "c": 0.33333333333333331,
+                "type": "Bicubic"
+            },
+            {
+                "antiring": 0,
+                "radius": 3,
+                "type": "Spline"
+            },
+            {
+                "antiring": 0,
+                "radius": 3,
+                "type": "Lanczos"
+            },
+            {
+                "antiring": 0,
+                "blur": 0,
+                "radius": 3,
+                "type": "EwaLanczos"
+            },
+            {
+                "kernel": 3,
+                "sharpeness": 0.5,
+                "type": "Sharpen"
+            }
+        ],
+        "video_interpolator_map": [
+            {
+                "type": "Bilinear"
+            },
+            {
+                "antiring": 0,
+                "b": 0,
+                "c": 0.5,
+                "type": "Bicubic"
+            },
+            {
+                "antiring": 0,
+                "radius": 3,
+                "type": "Spline"
+            },
+            {
+                "antiring": 0,
+                "radius": 3,
+                "type": "Lanczos"
+            },
+            {
+                "antiring": 0,
+                "blur": 0,
+                "radius": 3,
+                "type": "EwaLanczos"
+            },
+            {
+                "kernel": 3,
+                "sharpeness": 0.5,
+                "type": "Sharpen"
+            }
+        ],
+        "video_motion_interpolation": false,
+        "video_offset": {
+            "x": 0,
+            "y": 0
+        },
+        "video_range": "Auto",
+        "video_rotation": "D0",
+        "video_space": "Auto",
+        "video_tracks": {
+            "tracks": [
+            ],
+            "type": "video"
+        },
+        "video_vertical_alignment": "Center",
+        "video_zoom": 1
+    },
+    "use_interpolator_down": true,
+    "visualization": "Off",
+    "win_frameless": false,
+    "win_pos": {
+        "x": 0,
+        "y": 0
+    },
+    "win_size": {
+        "height": -1,
+        "width": -1
+    },
+    "win_stays_on_top": "Playing"
+}

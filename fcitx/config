@@ -4,7 +4,7 @@
 # Use extra trigger key only after using it to inactivate
 # Available Value:
 # True False
-UseExtraTriggerKeyOnlyWhenUseItToInactivate=False
+#UseExtraTriggerKeyOnlyWhenUseItToInactivate=True
 # Extra key for trigger input method
 # Available Value:
 # R_CTRL
@@ -48,7 +48,7 @@ UseExtraTriggerKeyOnlyWhenUseItToInactivate=False
 # ALT_SHIFT
 # CTRL_SUPER
 # ALT_SUPER
-IMSwitchHotkey=ALT_SUPER
+#IMSwitchHotkey=CTRL_SHIFT
 # Reload configuration
 #ReloadConfig=CTRL_5
 # Interval of Two Key Input
@@ -84,7 +84,7 @@ NextPageKey==
 # No
 # All
 # PerProgram
-#ShareStateAmongWindow=No
+ShareStateAmongWindow=All
 # Default Input Method State
 # Available Value:
 # Inactive

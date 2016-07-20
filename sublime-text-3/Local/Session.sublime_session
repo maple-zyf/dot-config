@@ -301,138 +301,13 @@
 			"buffers":
 			[
 				{
-					"file": "/home/maple/workspace_android/myDemo/www/js/controllers.js",
+					"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.1 Release Notes\n  \n  Package Control continues its focus on polish and fixing edge-case bugs. Some\n  of the changes in this version include:\n  \n   - quick panel for Install Package now stays open on Windows with recent\n     versions of ST3, even when focus is lost\n   - new \"downloader_precedence\" setting to allow users to use specific HTTP\n     backend due to network proxy or SSL issues\n   - added Install Local Dependency command for package developers to more\n     easily deal with dependencies during development\n   - improved handling of git/hg package upgrade errors\n   - better handling of locked .sublime-package files on Windows\n   - performance improvements for users with a large number of open windows\n  \n  For package developers, the list of available dependencies has been growing:\n  https://github.com/wbond/package_control_channel/blob/master/repository/dependencies.json\n  \n  Enjoy!\n  \n  ",
 					"settings":
 					{
-						"buffer_size": 24902,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/maple/workspace_android/myDemo/www/templates/tab-herolist.html",
-					"settings":
-					{
-						"buffer_size": 4340,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "<ion-view view-title=\"我的帐户\">\n	<ion-nav-buttons side=\"right\"  >\n		<button class=\"login-button\" ng-click=\"go_to_login()\" ng-if='!isLogin'>\n			登陆\n		</button>\n		<button class=\"login-button\" ng-click=\"go_to_cancel()\" ng-if='isLogin'>\n			注销\n		</button>\n	</ion-nav-buttons>\n    <div class=\"list\" style=\"margin-top:43px\">\n\n	  <a class=\"item item-icon-left\" href=\"#/tab/tasks-release\">\n		<i class=\"icon ion-email\"></i>\n		发布的任务\n	  </a>\n\n	  <a class=\"item item-icon-left\" href=\"#/tab/tasks\">\n		<i class=\"icon ion-email\"></i>\n		接收的任务\n	  </a>\n\n	  <a class=\"item item-icon-left item-icon-right\" href=\"#/tab/map\">\n		<i class=\"icon ion-chatbubble-working\"></i>\n		当前位置\n		<i class=\"icon ion-ios7-telephone-outline\"></i>\n	  </a>\n\n\n	  <a class=\"item item-icon-left\" href=\"#\">\n		<i class=\"icon ion-person-stalker\"></i>\n		我的朋友\n		<span class=\"badge badge-assertive\">0</span>\n	  </a>\n\n    </div>\n</ion-view>\n",
-					"file": "/home/maple/workspace_android/myDemo/www/templates/tab-account.html",
-					"file_size": 936,
-					"file_write_time": 130784895581474467,
-					"settings":
-					{
-						"buffer_size": 884,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/maple/workspace_android/myDemo/www/js/app.js",
-					"settings":
-					{
-						"buffer_size": 3948,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/maple/workspace_android/myDemo/www/templates/map.html",
-					"settings":
-					{
-						"buffer_size": 1125,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/maple/workspace_android/myDemo/www/lib/jquery/dist/jquery.js",
-					"settings":
-					{
-						"buffer_size": 247597,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/maple/workspace_android/myDemo/www/templates/tab-chats.html",
-					"settings":
-					{
-						"buffer_size": 1051,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/maple/workspace_android/myDemo/www/templates/chat-tasks-release.html",
-					"settings":
-					{
-						"buffer_size": 1322,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/maple/workspace_android/myDemo/www/templates/chat-tasks.html",
-					"settings":
-					{
-						"buffer_size": 1387,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "\n日结兼职\n周末兼职\n服务员\n促销/导购\n钟点工\n家教\n传单派发\n礼仪/模特\n\n促销/导购\n问卷调查\n传单派发\n钟点工\n服务员\n生活配送员\n\n网站建设\n编程\n游戏代练\nSEO优化\n网络维修\n兼职测试\n图片处理\n视频制作\nCAD制图/装修设计\n\n家教\n翻译\n会计\n摄影/摄像\n化妆师\n导游\n汽车陪练\n汽车代驾\n技工\n\n礼仪/模特\n司仪/演出\n平面设计\n艺术老师\n健身教练\n手绘/漫画\n活动策划\n网络营销\n写作\n\n志愿者\n护工\n其他兼职\n",
-					"settings":
-					{
-						"buffer_size": 217,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/maple/workspace_android/myDemo/www/templates/chat-detail.html",
-					"settings":
-					{
-						"buffer_size": 1078,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "create table users(\n	username varchar(20) not null,\n	password varchar(20) not null,\n	state int ,\n	accept_count int ,\n	release_count int not null,\n	primary key(username)\n) CHARSET=utf8;\n\ncreate table task(\n	title varchar(30) not null,\n	context varchar(300) not null,\n	state int not null,\n	accept_name varchar(20),\n	release_name varchar(20) not null,\n	primary key(title)\n) CHARSET=utf8;\n/*插入数据*/\ninsert into user values ();               //注册\ninsert into task values ();               //发布任务\n\n/*更新数据*/\nupdate user set state=0/1 where username=XXXXXXX;                    //登录\nupdate user set accept_count=accept_count+1 where username=XXXXXXX;  //接受任务\nupdate user set release_count=release_count+1 where username=XXXXXXX;//发布任务\nupdate user set accept_count=accept_count-1 where username=XXXXXXX;  //完成任务\nupdate user set release_count=release_count-1 where username=XXXXXXX;//完成任务\nupdate task set accept_name=XXXXXXXXXXXXX where title=XXXXXXXXXXXX;  //接受任务\n\n\n/*选择数据*/\nselect title,context from task where accept_name=XXXXXXXX;           //查看用户接受任务数量\nselect title,context from task where release_name=XXXXXXX;           //查看用户发布任务数量\nselect title,context,release_name from task;                         //用于chats，chat-detail获取数据\n\n\n/*删除数据*/\ndelete from task where title=XXXXXXXXX;                              //完成任务\n",
-					"file": "/home/maple/workspace_android/myDemo/www/php/database.txt",
-					"file_size": 1424,
-					"file_write_time": 130792817569603333,
-					"settings":
-					{
-						"buffer_size": 1311,
-						"line_ending": "Windows",
+						"buffer_size": 1004,
+						"line_ending": "Unix",
+						"name": "Package Control Messages",
 						"scratch": true
-					}
-				},
-				{
-					"file": "/home/maple/Documents/linux_ks_lj (copy)/server.c",
-					"settings":
-					{
-						"buffer_size": 6171,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/home/maple/workspace_android/myDemo/www/css/style.css",
-					"settings":
-					{
-						"buffer_size": 1297,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/maple/workspace_android/myDemo/www/php/service_senddata.php",
-					"settings":
-					{
-						"buffer_size": 2658,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/maple/workspace_android/myDemo/www/templates/login.html",
-					"settings":
-					{
-						"buffer_size": 752,
-						"line_ending": "Unix"
 					}
 				}
 			],
@@ -473,28 +348,33 @@
 			},
 			"file_history":
 			[
+				"/home/maple/workspace_android/myDemo/www/templates/tab-account.html",
+				"/home/maple/Documents/linux_ks_lj (copy)/server.c",
+				"/home/maple/workspace_android/myDemo/www/templates/login.html",
+				"/home/maple/workspace_android/myDemo/www/php/service_senddata.php",
+				"/home/maple/workspace_android/myDemo/www/css/style.css",
+				"/home/maple/workspace_android/myDemo/www/php/database.txt",
+				"/home/maple/workspace_android/myDemo/www/templates/chat-detail.html",
+				"/home/maple/workspace_android/myDemo/www/templates/chat-tasks.html",
+				"/home/maple/workspace_android/myDemo/www/templates/chat-tasks-release.html",
+				"/home/maple/workspace_android/myDemo/www/templates/tab-chats.html",
+				"/home/maple/workspace_android/myDemo/www/lib/jquery/dist/jquery.js",
+				"/home/maple/workspace_android/myDemo/www/templates/map.html",
+				"/home/maple/workspace_android/myDemo/www/js/app.js",
+				"/home/maple/workspace_android/myDemo/www/templates/tab-herolist.html",
+				"/home/maple/workspace_android/myDemo/www/js/controllers.js",
 				"/home/maple/workspace_android/myDemo (copy)/www/templates/chat-detail.html",
 				"/home/maple/workspace_android/myDemo.bak.6.9/www/js/controllers.js",
 				"/home/maple/workspace_android/myDemo/www/templates/test",
 				"/home/maple/workspace_android/myDemo/www/js/controllers.cookie.js",
-				"/home/maple/workspace_android/myDemo/www/js/controllers.js",
 				"/home/maple/workspace_android/myDemo.testerror_rootscope/www/js/controllers.js",
 				"/home/maple/workspace_android/myDemo/www/lib/ionic/css/ionic.css",
 				"/home/maple/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/maple/workspace_android/myDemo/www/templates/tab-dash.html",
-				"/home/maple/workspace_android/myDemo/www/templates/tab-chats.html",
 				"/home/maple/workspace_android/myDemo/www/templates/tabs.html",
 				"/home/maple/workspace_android/myDemo/config.xml",
-				"/home/maple/workspace_android/myDemo/www/templates/chat-detail.html",
-				"/home/maple/workspace_android/myDemo/www/css/style.css",
-				"/home/maple/workspace_android/myDemo/www/templates/tab-account.html",
-				"/home/maple/workspace_android/myDemo/www/js/app.js",
-				"/home/maple/workspace_android/myDemo/www/templates/chat-tasks-release.html",
 				"/home/maple/workspace_android/myDemo/www/index.html",
-				"/home/maple/workspace_android/myDemo/www/templates/tab-herolist.html",
-				"/home/maple/workspace_android/myDemo/www/templates/login.html",
 				"/home/maple/workspace_android/myDemo/www/templates/register.html",
-				"/home/maple/workspace_android/myDemo/www/php/database.txt",
 				"/mnt/debian.old/home/maple/crap of xmonad/demo/www/css/style.css",
 				"/mnt/debian.old/home/maple/crap of xmonad/myDemo_kkx1/www/templates/chat-detail.html",
 				"/mnt/debian.old/home/maple/workspace_android/myDemo/www/templates/login.html",
@@ -537,491 +417,36 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/maple/workspace_android/myDemo/www/js/controllers.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 24902,
+								"buffer_size": 1004,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										21967,
-										21967
+										1004,
+										1004
 									]
 								],
 								"settings":
 								{
-									"force_encoding": "UTF-8",
-									"origin_encoding": "UTF-8",
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 11514.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 6,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/maple/workspace_android/myDemo/www/templates/tab-herolist.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 4340,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										633,
-										633
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "UTF-8",
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 54.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 8,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/maple/workspace_android/myDemo/www/templates/tab-account.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 884,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										28,
-										28
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "UTF-8",
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"translate_tabs_to_spaces": false
+									"auto_indent": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"word_wrap": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/maple/workspace_android/myDemo/www/js/app.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3948,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3514,
-										3514
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "ASCII",
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 2268.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/home/maple/workspace_android/myDemo/www/templates/map.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1125,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										584,
-										584
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "UTF-8",
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 9,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/home/maple/workspace_android/myDemo/www/lib/jquery/dist/jquery.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 247597,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										8306,
-										8306
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "ASCII",
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 5454.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 11,
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/home/maple/workspace_android/myDemo/www/templates/tab-chats.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1051,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										969,
-										969
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "ASCII",
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 216.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 7,
-							"type": "text"
-						},
-						{
-							"buffer": 7,
-							"file": "/home/maple/workspace_android/myDemo/www/templates/chat-tasks-release.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1322,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1170,
-										1170
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "ASCII",
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 270.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 5,
-							"type": "text"
-						},
-						{
-							"buffer": 8,
-							"file": "/home/maple/workspace_android/myDemo/www/templates/chat-tasks.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1387,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1278,
-										1278
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "UTF-8",
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 270.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 10,
-							"type": "text"
-						},
-						{
-							"buffer": 9,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 217,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"auto_name": "",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 14,
-							"type": "text"
-						},
-						{
-							"buffer": 10,
-							"file": "/home/maple/workspace_android/myDemo/www/templates/chat-detail.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1078,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										644,
-										644
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "ASCII",
-									"syntax": "Packages/HTML/HTML.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 162.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 11,
-							"file": "/home/maple/workspace_android/myDemo/www/php/database.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1311,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										185,
-										185
-									]
-								],
-								"settings":
-								{
-									"in_converting": true,
-									"origin_encoding": "GB2312",
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 12,
-							"file": "/home/maple/Documents/linux_ks_lj (copy)/server.c",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 6171,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1376,
-										1376
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "UTF-8",
-									"syntax": "Packages/C++/C++.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 996.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 13,
-							"file": "/home/maple/workspace_android/myDemo/www/css/style.css",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1297,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										559,
-										559
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "ASCII",
-									"syntax": "Packages/CSS/CSS.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 540.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 12,
-							"type": "text"
-						},
-						{
-							"buffer": 14,
-							"file": "/home/maple/workspace_android/myDemo/www/php/service_senddata.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2658,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										911,
-										911
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "UTF-8",
-									"syntax": "Packages/PHP/PHP.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 15,
-							"type": "text"
-						},
-						{
-							"buffer": 15,
-							"file": "/home/maple/workspace_android/myDemo/www/templates/login.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 752,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										537,
-										537
-									]
-								],
-								"settings":
-								{
-									"origin_encoding": "ASCII",
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 13,
 							"type": "text"
 						}
 					]
@@ -1063,7 +488,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,1219,725,1366,768",
+			"position": "0,1,0,0,0,0,0,0,0,1366,768",
 			"project": "",
 			"replace":
 			{
