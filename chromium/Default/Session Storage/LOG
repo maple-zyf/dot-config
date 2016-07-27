@@ -1,3 +1,9 @@
-2016/07/20-12:07:33.711 12685 Reusing MANIFEST /home/maple/.config/chromium/Default/Session Storage/MANIFEST-000001
-2016/07/20-12:07:33.711 12685 Recovering log #70
-2016/07/20-12:07:33.711 12685 Reusing old log /home/maple/.config/chromium/Default/Session Storage/000070.log 
+2016/07/23-07:45:55.074 1650 Reusing MANIFEST /home/maple/.config/chromium/Default/Session Storage/MANIFEST-000001
+2016/07/23-07:45:55.074 1650 Recovering log #70
+2016/07/23-07:45:55.159 1650 Reusing old log /home/maple/.config/chromium/Default/Session Storage/000070.log 
+2016/07/23-07:46:07.124 1998 Level-0 table #75: started
+2016/07/23-07:46:07.190 1998 Level-0 table #75: 31759 bytes OK
+2016/07/23-07:46:07.299 1998 Delete type=0 #70
+2016/07/23-07:47:04.073 1998 Level-0 table #77: started
+2016/07/23-07:47:04.359 1998 Level-0 table #77: 193302 bytes OK
+2016/07/23-07:47:04.418 1998 Delete type=0 #74

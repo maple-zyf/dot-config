@@ -1,3 +1,3 @@
-2016/07/05-19:58:02.998 23417 Reusing MANIFEST /home/maple/.config/chromium/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2016/07/05-19:58:02.998 23417 Recovering log #3
-2016/07/05-19:58:03.028 23417 Reusing old log /home/maple/.config/chromium/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/000003.log 
+2016/07/23-07:49:21.191 1668 Reusing MANIFEST /home/maple/.config/chromium/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2016/07/23-07:49:21.191 1668 Recovering log #3
+2016/07/23-07:49:21.232 1668 Reusing old log /home/maple/.config/chromium/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/000003.log 

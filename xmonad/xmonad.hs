@@ -55,7 +55,7 @@ import qualified Data.Map as M
 --myL = imageButtonDeco shrinkText defaultThemeWithImageButtons (layoutHook defaultConfig)
 
 main = do
-  xmobar <- spawnPipe "/home/vimer/.cabal/bin/xmobar /home/vimer/scripts/xmobarrc-archwiki"
+  xmobar <- spawnPipe "/usr/local/bin/xmobar /home/vimer/scripts/xmobarrc-archwiki"
   xmonad $ defaultConfig
  
     { terminal           = myTerminal
@@ -145,7 +145,7 @@ myManageHook = composeAll . concat $
     , [resource =? src --> doFloat | src <- resourceFloats]
     , [className =? cls --> doFloat | cls <- classFloats]
     , [title =? tit --> doFloat | tit <- titleFloats]
---    , [resource =? i --> doIgnore | i <- myIgnores]
+    , [className =? ign --> doIgnore | ign <- classIgnores]
 
 --    , [(className =? x <||> title =? x <||> resource =? x) --> doShift "1:irc" | x <- my1Shifts]
 --    , [(className =? x <||> title =? x <||> resource =? x) --> doShift "2:www" | x <- my2Shifts]
@@ -155,15 +155,15 @@ myManageHook = composeAll . concat $
 --    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "6:GIMP" | x <- my6Shifts]
 --    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "7:slideshow!" | x <- my7Shifts]
 --    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "8:foo()" | x <- my8Shifts]
---    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "9:vbox" | x <- my9Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo (myWorkspaces !! 3) | x <- mediaShifts]
     , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo (myWorkspaces !! 2) | x <- webShifts]
     ]
     where
     doShiftAndGo = doF . liftM2 (.) W.greedyView W.shift
     resourceFloats = ["Pan","Places"]
-    classFloats = []
+    classFloats = ["netease-cloud-music"]
     titleFloats = ["Pan Filter Preferences","Choose Proxy Server for Rule Groups"]
---    myIgnores = ["desktop_window", "kdesktop"]
+    classIgnores =[] --["netease-cloud-music"]
 --    my1Shifts = []
 --    my2Shifts = ["Chromium"]
 --    my3Shifts = ["Deadbeef", "Gmpc"]
@@ -172,6 +172,7 @@ myManageHook = composeAll . concat $
 --    my6Shifts = ["Gimp"]
 --    my7Shifts = ["feh"]
 --    my8Shifts = ["Easytag", "Gconf-editor", "Inkscape", "K3b", "MusicBrainz Picard", "tmw", "Twf", "VCLSalFrame.DocumentWindow"]
+    mediaShifts = ["netease-cloud-music"]
     webShifts = ["chromium-browser", "Iceweasel", "Firefox"]
  
 
@@ -248,7 +249,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
 	, ((winMask .|. shiftMask, xK_BackSpace), killAll) -- %! Close all windows in the workspace
 
 	, ((altMask,               xK_p     ), spawn "dmenu_run") -- %! Launch dmenu
-	, ((altMask, xK_f ), spawn "firefox") 
+	, ((altMask, xK_f ), spawn "firefox --profile /home/maple/.mozilla/firefox/4skdfdsr.xmonad") 
 
 	, ((altMask, xK_Tab), nextWS)  -- %! more stuff about workspace, see XMonad.Actions.CycleWS
 	, ((modMask,               xK_space ), sendMessage NextLayout) -- %! Rotate through the available layout algorithms

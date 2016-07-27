@@ -10,7 +10,7 @@ English (US):us:English (Dvorak alternative international no dead keys):dvorak-a
 English (US):us:English (left handed Dvorak):dvorak-l:en
 English (US):us:English (right handed Dvorak):dvorak-r:en
 English (US):us:English (classic Dvorak):dvorak-classic:en
-English (US):us:English (programmer Dvorak):dvp:en
+English (US):us:English (Programmer Dvorak):dvp:en
 English (US):us:Russian (US, phonetic):rus:ru
 English (US):us:English (Macintosh):mac:en
 English (US):us:English (international AltGr dead keys):altgr-intl:en
@@ -38,6 +38,7 @@ Arabic:ara:Arabic (digits):digits:ar
 Arabic:ara:Arabic (qwerty):qwerty:ar
 Arabic:ara:Arabic (qwerty/digits):qwerty_digits:ar
 Arabic:ara:Arabic (Buckwalter):buckwalter:ar
+Arabic:ara:Arabic (Macintosh):mac:ar
 Arabic:ara:Arabic (Sun Type 6/7):sun_type6:ar
 Albanian:al:sq
 Albanian:al:Albanian (Plisi D1):plisi-d1:sq
@@ -85,6 +86,7 @@ Indian:in:Malayalam:mal:ml
 Indian:in:Malayalam (Lalitha):mal_lalitha:ml
 Indian:in:Malayalam (enhanced Inscript, with rupee sign):mal_enhanced:ml
 Indian:in:Oriya:ori:or
+Indian:in:Ol Chiki:olck:sat
 Indian:in:Tamil (Unicode):tam_unicode:ta
 Indian:in:Tamil (keyboard with numerals):tam_keyboard_with_numerals:ta
 Indian:in:Tamil (TAB typewriter):tam_TAB:ta
@@ -112,6 +114,7 @@ Portuguese (Brazil):br:Portuguese (Brazil, Dvorak):dvorak:pt
 Portuguese (Brazil):br:Portuguese (Brazil, Nativo):nativo:pt
 Portuguese (Brazil):br:Portuguese (Brazil, Nativo for US keyboards):nativo-us:pt
 Portuguese (Brazil):br:Esperanto (Brazil, Nativo):nativo-epo:eo
+Portuguese (Brazil):br:Portuguese (Brazil, IBM/Lenovo ThinkPad):thinkpad:pt
 Portuguese (Brazil):br:Portuguese (Brazil, Sun Type 6/7):sun_type6:pt
 Bulgarian:bg:bg
 Bulgarian:bg:Bulgarian (traditional phonetic):phonetic:bg
@@ -129,6 +132,7 @@ English (Cameroon):cm:French (Cameroon):french:fr
 English (Cameroon):cm:Cameroon Multilingual (qwerty):qwerty:en
 English (Cameroon):cm:Cameroon Multilingual (azerty):azerty:fr
 English (Cameroon):cm:Cameroon Multilingual (Dvorak):dvorak:en
+English (Cameroon):cm:Mmuock:mmuock:en
 Burmese:mm:my
 French (Canada):ca:fr
 French (Canada):ca:French (Canada, Dvorak):fr-dvorak:fr
@@ -145,7 +149,7 @@ French (Democratic Republic of the Congo):cd:fr
 Chinese:cn:zh
 Chinese:cn:Tibetan:tib:bo
 Chinese:cn:Tibetan (with ASCII numerals):tib_asciinum:bo
-Chinese:cn:Uyghur:ug:
+Chinese:cn:Uyghur:ug:ug
 Croatian:hr:hr
 Croatian:hr:Croatian (with guillemets for quotes):alternatequotes:hr
 Croatian:hr:Croatian (with Croatian digraphs):unicode:hr
@@ -157,6 +161,7 @@ Czech:cz:Czech (qwerty):qwerty:cs
 Czech:cz:Czech (qwerty, extended Backslash):qwerty_bksl:cs
 Czech:cz:Czech (UCW layout, accented letters only):ucw:cs
 Czech:cz:Czech (US Dvorak with CZ UCW support):dvorak-ucw:cs
+Czech:cz:Russian (Czech, phonetic):rus:ru
 Czech:cz:Czech (Sun Type 6/7):sun_type6:cs
 Danish:dk:da
 Danish:dk:Danish (eliminate dead keys):nodeadkeys:da
@@ -196,6 +201,7 @@ Finnish:fi:Finnish (classic, eliminate dead keys):nodeadkeys:fi
 Finnish:fi:Finnish (Winkeys):winkeys:fi
 Finnish:fi:Northern Saami (Finland):smi:se
 Finnish:fi:Finnish (Macintosh):mac:fi
+Finnish:fi:Finnish (DAS):das:fi
 Finnish:fi:Finnish (Sun Type 6/7):sun_type6:fi
 French:fr:fr
 French:fr:French (eliminate dead keys):nodeadkeys:fr
@@ -211,6 +217,7 @@ French:fr:French (Bepo, ergonomic, Dvorak way):bepo:fr
 French:fr:French (Bepo, ergonomic, Dvorak way, Latin-9 only):bepo_latin9:fr
 French:fr:French (Dvorak):dvorak:fr
 French:fr:French (Macintosh):mac:fr
+French:fr:French (Azerty):azerty:fr
 French:fr:French (Breton):bre:fr
 French:fr:Occitan:oci:oc
 French:fr:Georgian (France, AZERTY Tskapo):geo:ka
@@ -250,8 +257,10 @@ German:de:Russian (Germany, phonetic):ru:ru
 German:de:German (legacy):legacy:de
 German:de:German (US keyboard with German letters):us:en
 German:de:German (with Hungarian letters and no dead keys):hu:de
+German:de:Polish (Germany, eliminate dead keys):pl:de
 German:de:German (Sun Type 6/7):sun_type6:de
 German:de:German (Aus der Neo-Welt):adnw:de
+German:de:German (KOY):koy:de
 Greek:gr:el
 Greek:gr:Greek (simple):simple:el
 Greek:gr:Greek (extended):extended:el
@@ -281,6 +290,7 @@ Hungarian:hu:Hungarian (102/qwerty/dot/eliminate dead keys):102_qwerty_dot_nodea
 Icelandic:is:is
 Icelandic:is:Icelandic (Sun dead keys):Sundeadkeys:is
 Icelandic:is:Icelandic (eliminate dead keys):nodeadkeys:is
+Icelandic:is:Icelandic (Macintosh, legacy):mac_legacy:is
 Icelandic:is:Icelandic (Macintosh):mac:is
 Icelandic:is:Icelandic (Dvorak):dvorak:is
 Hebrew:il:he
@@ -317,6 +327,7 @@ Spanish (Latin American):latam:es
 Spanish (Latin American):latam:Spanish (Latin American, eliminate dead keys):nodeadkeys:es
 Spanish (Latin American):latam:Spanish (Latin American, include dead tilde):deadtilde:es
 Spanish (Latin American):latam:Spanish (Latin American, Sun dead keys):sundeadkeys:es
+Spanish (Latin American):latam:Spanish (Latin American, Dvorak):dvorak:es
 Lithuanian:lt:lt
 Lithuanian:lt:Lithuanian (standard):std:lt
 Lithuanian:lt:Lithuanian (US keyboard with Lithuanian letters):us:lt
@@ -416,6 +427,8 @@ Russian:ru:Russian (Macintosh):mac:ru
 Russian:ru:Serbian (Russia):srp:ru
 Russian:ru:Bashkirian:bak:ba
 Russian:ru:Mari:chm:chm
+Russian:ru:Russian (phonetic azerty):phonetic_azerty:ru
+Russian:ru:Russian (phonetic French):phonetic_fr:ru
 Russian:ru:Church Slavonic:chu:cu
 Russian:ru:Russian (with Ukrainian-Belorussian layout):ruu:ru
 Russian:ru:Russian (Sun Type 6/7):sun_type6:ru
@@ -480,6 +493,7 @@ Tajik:tj:Tajik (legacy):legacy:tg
 Sinhala (phonetic):lk:si
 Sinhala (phonetic):lk:Tamil (Sri Lanka, Unicode):tam_unicode:ta
 Sinhala (phonetic):lk:Tamil (Sri Lanka, TAB Typewriter):tam_TAB:ta
+Sinhala (phonetic):lk:Sinhala (US keyboard with Sinhala letters):us:si
 Thai:th:th
 Thai:th:Thai (TIS-820.2538):tis:th
 Thai:th:Thai (Pattachote):pat:th
@@ -554,6 +568,7 @@ Bambara:ml:French (Mali, alternative):fr-oss:fr
 Bambara:ml:English (Mali, US Macintosh):us-mac:en
 Bambara:ml:English (Mali, US international):us-intl:en
 Swahili (Tanzania):tz:sw
+French (Togo):tg:fr
 Swahili (Kenya):ke:sw
 Swahili (Kenya):ke:Kikuyu:kik:ki
 Tswana:bw:tn
