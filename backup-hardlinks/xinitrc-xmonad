@@ -1,0 +1,25 @@
+# set cursor
+
+xsetroot -cursor_name left_ptr &
+
+# start xmonad
+#xloadimage -onroot -fullscreen ~/background.png
+#xpmroot ~/background.xpm &    # this was replaced by hsetroot:  can't work with xcompmgr
+#trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 6 --transparent true --alpha 205 --tint 0x000A00 --height 16 & 
+
+#hsetroot -center ~/Pictures/background.xpm &
+hsetroot -full ~/Pictures/heizi-01.xpm &
+#xcompmgr -fc &
+xcompmgr -f &
+#xrdb -merge  ~/.Xresources
+#xmodmap ~/.Caps_to_Esc
+fcitx --disable fcitx-xkb &
+xinput set-prop 14 134 0 &
+xhost + &
+/home/maple/.config/autostart/XX-Net.sh & 
+/home/maple/.config/autostart/emacs-server.sh &
+exec ck-launch-session dbus-launch xmonad
+
+#[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+# load background
+

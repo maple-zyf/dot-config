@@ -1,0 +1,353 @@
+" An example for a vimrc file.
+"
+" Maintainer:MaintainerBram Moolenaar <Bram@vim.org>
+" Last change:change2011 Apr 15
+"
+" To use it, copy it to
+"     for Unix and OS/2:  ~/.vimrc
+"vimrc      for Amiga:  s:.vimrc
+"  for MS-DOS and Win32:  $VIM\_vimrc
+"_vimrc    for OpenVMS:  sys$login:.vimrc
+
+" When started as "evim", evim.vim will already have done these settings.
+if v:progname =~? "evim"
+  finish
+endif
+
+" Use Vim settings, rather than Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
+set nocompatible
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
+if has("vms")
+  set nobackup" do not keep a backup file, use versions instead
+else
+  set backup" keep a backup file
+endif
+set history=50" keep 50 lines of command line history
+set ruler" show the cursor position all the time
+set showcmd" display incomplete commands
+set incsearch" do incremental searching
+
+" For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
+" let &guioptions = substitute(&guioptions, "t", "", "g")
+
+" Don't use Ex mode, use Q for formatting
+map Q gq
+
+" CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
+" so that you can undo CTRL-U after inserting a line break.
+inoremap <C-U> <C-G>u<C-U>
+
+" In many terminal emulators the mouse works just fine, thus enable it.
+" I don't want the mouse  so....
+if has('mouse')
+  set mouse=v
+endif
+
+" Switch syntax highlighting on, when the terminal has colors
+" Also switch on highlighting the last used search pattern.
+if &t_Co > 2 || has("gui_running")
+  syntax on
+  set hlsearch
+endif
+
+" Only do this part when compiled with support for autocommands.
+if has("autocmd")
+
+  " Enable file type detection.
+  " Use the default filetype settings, so that mail gets 'tw' set to 72,
+  " 'cindent' is on in C files, etc.
+  " Also load indent files, to automatically do language-dependent indenting.
+  filetype plugin indent on
+
+  " Put these in an autocmd group, so that we can delete them easily.
+  augroup vimrcEx
+  au!
+    
+  " For all text files set 'textwidth' to 78 characters.
+  autocmd FileType text setlocal textwidth=78
+
+  " When editing a file, always jump to the last known cursor position.
+  " Don't do it when the position is invalid or when inside an event handler
+  " (happens when dropping a file on gvim).
+  " Also don't do it when the mark is in the first line, that is the default
+  " position when opening a file.
+  autocmd BufReadPost *
+    \ if line("'\"") > 1 && line("'\"") <= line("$") |
+    \   exe "normal! g`\"" |
+    \ endif
+
+  augroup END
+
+else
+
+  set autoindent" always set autoindenting on
+
+endif " has("autocmd")
+
+" Make vim work with the 'crontab -e' command
+set backupskip+=/var/spool/cron/*
+
+" Convenient command to see the difference between the current buffer and the
+" file it was loaded from, thus the changes you made.
+" Only define it when not defined already.
+if !exists(":DiffOrig")
+  command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
+          \ | wincmd p | diffthis
+endif
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                   my own settings                        "
+"__________________________________________________________"
+if &term =~ '256color'
+    " Disable Background Color Erase (BCE) so that color schemes
+    " work properly when Vim is used inside tmux and GNU screen.
+	" fix the vim background color mess up with terminal color.
+    set t_ut=
+endif
+
+"#set some edit plugin fuctions
+":set fileencoding=cp936 :set fileencoding=utf-8 保存为GB和UTF-8编码的格式.
+    set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+    set number                        "显行号
+    set tabstop =4                    "tab 为4个空
+    set sidescroll=1                  "光标移出边界时屏幕移运的列数 
+    set cindent shiftwidth=4
+    set smartindent
+    set nowrap                        "不自动换行
+    set bs =2                         "backspacw 用2号功能
+    set nowrapscan                    "when you search a keyword 不会绕回来
+    set equalalways
+    "set noignorecase                  "查找时大小写敏感
+    "set t_Co=256                      "指定配色方案为256色
+    set ch=1                          "ex 的高度
+    set eadirection=ver
+    set laststatus=2                  "让每个窗口都显示状态行  就算只有一个
+    set completeopt =longest,menu     "关掉智能补全的预览窗口
+	set rnu
+	set nuw=8
+    "#一些颜色
+	"set nohlsearch                   "搜索结果不高亮
+	hi Comment ctermfg=darkgrey       
+	hi Pmenu ctermfg=blue ctermbg=yellow
+	hi PmenuSel ctermfg=Blue ctermbg=green
+	"hi PmenuSbar ctermfg=White
+	"hi PmenuThumb ctermbg=blue ctermfg=yellow
+	set t_Co=256 
+	colorscheme inkpot
+	"#不要换行自动注释的功能
+    autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+"/*************************vim java
+"#for colorscheme-solarized
+
+"#for suppertab
+let g:SuperTabRetainCompletionType=2
+let g:SuperTabDefaultCompletionType="<C-X><C-U>"
+let g:SuperTabLongestEnhanced=1
+let g:SuperTabDefaultCompletionType = 'context'
+
+"#for ultisnips
+let g:UltiSnipsUsePythonVersion = 2
+set runtimepath+=~/.vim/vim-snippets
+let g:UltiSnipsExpandTrigger="<C-j>"
+let g:UltiSnipsJumpForwardTrigger="<C-l>"
+let g:UltiSnipsJumpBackwardTrigger="<C-h>"
+let g:UltiSnipsSnippetDirectories=['vim-snippets/UltiSnips', 'bundle/ultisnips/UltiSnips']
+"#for indentLine let g:indentLine_color_term = 239
+let g:indentLine_color_gui = '#A4E57E'  " '#09AA08'
+let g:indentLine_char = '¦'
+
+"#for delimitMate
+let delimitMate_expand_cr = 1
+"#for ctrlp
+    " Use <leader>p to open ctrlp
+let g:ctrlp_map = '<Leader>p'
+    " Ignore these directories
+set wildignore+=*/build/**
+    " disable caching
+let g:ctrlp_use_caching=0
+
+"# for eclim R.java
+"let b:EclimLocationListFilter = [  "R cannot be resolved to a variable" ]
+
+
+
+"/******************************
+"#map  
+
+    "QuickFix
+    nmap <F6> :cp<cr>
+    nmap <F7> :cn<cr>
+    "flush tags
+    nmap <F1> :NeoComplCacheCachingTags<cr>
+    nmap <F2> :!ctags -R<cr>
+    "nmap <F2> :NeoComplCacheCachingTags<cr> :!ctags -R<cr>     
+    "delete all ^M under there must hava an hl-^M
+    nmap <Leader>M :%s///g<cr>
+
+    nmap <Leader>t :set expandtab \|%retab<cr>
+    nmap <Leader>d :NERDTreeToggle<CR>
+    "change a word to uppercase, I love this very much  
+    inoremap <C-u> <esc>gUiwea
+                        
+                        
+"************************************************************
+""#function of brackets
+"function! AutoPair(open, close)
+"    let line = getline('.')
+"    if col('.') > strlen(line) || line[col('.') - 1] == ' '
+"        return a:open.a:close."\<ESC>i"
+"    else
+"        return a:open
+"    endif
+"endf
+"
+"function! ClosePair(char)
+"    if getline('.')[col('.') - 1] == a:char
+"        return "\<Right>"
+"    else
+"        return a:char
+"    endif
+"endf
+"
+"inoremap ( <c-r>=AutoPair('(', ')')<CR>
+"inoremap ) <c-r>=ClosePair(')')<CR>
+":inoremap [ <c-r>=AutoPair('[', ']')<CR>
+":inoremap ] <c-r>=ClosePair(']')<CR>
+"
+"
+"    " function ClosePair(char)
+"    "         if getline('.')[col('.')-1]==a:char
+"    "                 return "\<RIGHT>"
+"    "         else
+"    "                 return a:char
+"    "         endif
+"    " endf
+"    " :inoremap ( ()<LEFT>
+"    " :inoremap ) <c-r>=ClosePair(')')<CR>
+"    :inoremap { {}<LEFT>
+"    :inoremap } <c-r>=ClosePair('}')<CR>
+"    " :inoremap [ []<LEFT>
+"    " :inoremap ] <c-r>=ClosePair(']')<CR>
+"    ":inoremap /* /**/<LEFT><LEFT>
+
+"#function SetTitle，自动插入文件头 
+    autocmd BufNewFile *.py,*.cpp,*.sh,*.java,*.h exec ":call SetTitle()"
+    func SetTitle()
+        "如果文件类型为.sh文件 
+        if &filetype=='sh'
+            call setline(1,"\#!/bin/bash")
+            call append(line("."), "# Author: zeng yingfeng")
+            call append(line(".")+1, "# Created Time: ".strftime("%c"))
+            call append(line(".")+2, "")
+        elseif &filetype=='cpp'
+            call setline(1,"// File Name: ".expand("%"))
+            call append(line("."), "// Author: zeng yingfeng")
+            call append(line(".")+1, "// Created Time: ".strftime("%c"))
+            call append(line(".")+2, "")
+            call append(line(".")+3, "#include<iostream>")
+            call append(line(".")+4, "#include<string>")
+            call append(line(".")+5, "#include<algorithm>")
+            call append(line(".")+6, "#include<cstdlib>")
+            call append(line(".")+7, "using namespace std;")
+            call append(line(".")+8, "int main(){")
+            call append(line(".")+9, "")
+            call append(line(".")+10, "    return 0")
+            call append(line(".")+11,"}")
+        elseif &filetype == 'py'
+            call setline(1,"\#!/usr/bin/env python")
+            call append(line("."), "# Author:py zeng yingfeng")
+            call append(line(".")+1, "# Created Time: ".strftime("%c"))
+            call append(line(".")+2, "")
+        elseif &filetype == 'h'
+            call setline(1,"#ifndef _",%,"_H_")
+            call append(line("."), "* Author: zeng yingfeng")
+            call append(line(".")+1, "* Created Time: ".strftime("%c"))
+            call append(line(".")+2, "*/")
+            call append(line(".")+3, "")
+        else
+            
+            call setline(1,"/*",&filetype)
+            call append(line("."), "* Author: zeng yingfeng")
+            call append(line(".")+1, "* Created Time: ".strftime("%c"))
+            call append(line(".")+2, "*/")
+            call append(line(".")+3, "")
+            normal G
+        endif
+        "新建文件后，自动定位到文件末尾
+        "autocmd normal G
+    endf
+
+"*************************************************************
+"#快速切换到normal 注意<>后面看不见的空格！！！！！！！！！！！
+":noremap <UP>"map normal_modle ctrl+h
+"   :inoremap <silent><C-k> <up>
+"   :inoremap <silent><C-l> <right>
+"   :inoremap <silent><C-j> <down>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                     Vundle插件管理                     "
+"开始使用Vundle的必须配置
+    set nocompatible
+    filetype off
+    set rtp+=~/.vim/bundle/vundle/
+    call vundle#rc()
+
+""""""""""""""""""""""""""""""""rc"     >>>>>插件管理区<<<<<<    "
+"                              "
+""""""""""""""""""""""""""""""""
+"使用Vundle来管理Vundle
+    Bundle 'gmarik/vundle'
+
+"   Bundle 'MarcWeber/vim-addon-manager'
+    Bundle 'SirVer/ultisnips' 
+    Bundle 'Yggdroot/indentLine'
+    Bundle 'ervandew/supertab'
+    Bundle 'Raimondi/delimitMate'
+    Bundle 'scrooloose/nerdtree'
+    Bundle 'kien/ctrlp.vim'
+	Bundle 'airblade/vim-rooter'
+	Bundle 'godlygeek/tabular'
+"   Bundle 'honza/vim-snippets'
+
+
+""1>supertab 不用你管
+"    Bundle 'nonull/ctags'
+""2>neocomplcache
+"   Bundle 'Shougo/neocomplcache'
+""3>Drawit
+"    Bundle 'Drawit'
+""4>Tabular
+"   Bundle 'Tabular'
+"   Bundle 'junegunn/vim-easy-align'
+""5>cpp
+"    "cpp.vim #put it in runtime/syntax/
+"   Bundle 'phonzia/cppSyntaxCheck'
+""6>project
+""projectBundle 'Project'
+""7>easytags
+"   Bundle 'xolox/vim-misc'
+"   Bundle 'xolox/vim-easytags'
+""8> tComment
+"   Bundle 'tomtom/tcomment_vim'
+""9> snip
+"   Bundle 'drmingdrmer/xptemplate'
+""10>vim-script reload
+"   Bundle 'xolox/vim-reload'
+""11>vim IDE plugin(c/c++,bash,perl,vim-script)
+"   Bundle 'WolfgangMehner/vim-plugins'
+"   "exVim
+"    Bundle 'exvim/main'
+""Bundle 'Shougo/vimproc.vim'
+""vim有一个状态栏 加上powline则有两个状态栏
+"PowerLine插件 状态栏增强展示
+"Bundle 'Lokaltog/vim-powerline'
+"""Vundle配置必须 开启插件 
+    filetype plugin indent on         "开启文件类型检测
+"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
